@@ -1,0 +1,109 @@
+{
+  "status": "STARTED",
+  "purpose": "Isolate the effect of 11 reviewed target corrections on the same retained training examples",
+  "cohort_manifest_sha256": "0c26fa1d61f331e82ecf263dd81c865565494e0c8df56e01d2e70ced29ba8bc9",
+  "control_sft_sha256": "65a950766684ded6c30bf5a0dff31e1b24fa7379f783e11f6c5f7104034fb592",
+  "repaired_sft_sha256": "b6bd4d86efe228ea6b1e7179c8b6acb0c077cfc70b6c763b11073b6692065de3",
+  "dev_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+  "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+  "training_config": {
+    "model": "Qwen/Qwen3-0.6B",
+    "load_in_4bit": false,
+    "max_length": 2048,
+    "max_prompt_length": 1408,
+    "max_new_tokens": 640,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": true,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "learning_rate": 0.0001,
+    "epochs": 3,
+    "seed": 42,
+    "inference_batch_size": 8,
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  "inference_config": {
+    "model": "Qwen/Qwen3-0.6B",
+    "load_in_4bit": false,
+    "max_length": 2048,
+    "max_prompt_length": 1408,
+    "max_new_tokens": 640,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": true,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "learning_rate": 0.0001,
+    "epochs": 1,
+    "seed": 42,
+    "inference_batch_size": 8
+  },
+  "initialization": "Both start independently from the pinned base model; neither continues SFT or DPO adapters",
+  "arms": {
+    "control": "966 retained examples with original targets",
+    "repaired": "The same 966 examples/order/prompts, with exactly 11 reviewed target changes"
+  },
+  "primary_endpoint": "Verified accuracy on the unchanged 200-question dev with the existing deterministic executor",
+  "secondary_endpoint": "Raw model verified accuracy on the same dev",
+  "training_seed": 42,
+  "epochs": 3,
+  "planned_runs": 2,
+  "test_evaluation": false,
+  "prior_1000_row_baseline": "Descriptive only; comparisons to it mix quarantine/composition and label effects",
+  "limitations": [
+    "Single-seed exploratory dev analysis",
+    "Only 4 numerical answers change; 7 corrections change original source-row binding",
+    "Development labels retain known general noise risks",
+    "No DPO preference expansion or training in this revision step"
+  ],
+  "started_at_utc": "2026-09-24T21:20:30.184933+00:00",
+  "predeclared_protocol_sha256": "50f80654cc2696305fcc8a80b5a25381cf28395e00763da58396756791107ab6",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-85-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "transformers": "4.56.2",
+      "trl": "0.23.1",
+      "peft": "0.17.1",
+      "datasets": "4.1.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.47.0"
+    },
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "vram_gib": 23.53,
+    "bf16_supported": true,
+    "recommendation": "Start 0.6B, batch=1, max_length=2048. Dry-run 10 steps before full training."
+  },
+  "model_lock": {
+    "model": "Qwen/Qwen3-0.6B",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  "code_sha256": {
+    "findelta/__init__.py": "475c5001b017c46ddc7284c672b05a007a6b809685f8c62ea1b1319359b94125",
+    "findelta/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "findelta/cli.py": "31dd76320beddb3487974f37dbab3496485e47785ce2d6a55aa9d2482ca455b0",
+    "findelta/common.py": "b3a3cebabc1586194ccec51c03665fa1b3216d621ed09643df1998b4f85b74c8",
+    "findelta/data.py": "76f5cb87dfb902e5ef74c5b9e38978449c8d6df7da0154a87680828a25adc821",
+    "findelta/evaluate.py": "4c0e30228cf790741fb47273811cab8cb75d84ec9ce346fd0d5aeeebcf6e4dcb",
+    "findelta/modeling.py": "52f8c19465416eb5052fb02c9ab3e795b7e43d9b2c5da331de4e07b789502636",
+    "findelta/predict.py": "32f981731cdbbc8143895096b21f35ee793904c2a431f0609269e746bdd67d89",
+    "findelta/preferences.py": "f42874c5d4c0176848f3f3007d0a047ab186ee7e27df46c13b1f45cef82d9dae",
+    "findelta/probe.py": "ce6b06486f59f922aa702d0c64ac1c79232ecd0a5c2454b8f0992047a4627a3a",
+    "findelta/report.py": "5004b2b1bb6c93cdf8a918424728e57eca09d21c4474bfee37bf7db82b8e92e8",
+    "findelta/revision.py": "744061d8bb753776e5b0c8113018a9d70c210ce22f9466e0730db21262b77432",
+    "findelta/stress.py": "3666694cf395c234069f33356b4ce5067093a44c094eb5323c8b7c87612cea31",
+    "findelta/train.py": "392626de99f957e77e5ce3c64e0b7140c8ae1dac40ba949d5c6922d48a70bd89",
+    "findelta/verify.py": "8b83482b4ffbb453642268ac5b3c20f37521d535480133c5751ad828eeff664e"
+  },
+  "runner_sha256": "9d4c4990f6248afdd4e1387beeab53fe2eefcad652961b2f324b770fe0752550",
+  "executor_script_sha256": "988182e1c3a42291447a7410242770ac12f546cc158ccd5755247d6b8478d3a5"
+}

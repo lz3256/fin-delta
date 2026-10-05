@@ -1,0 +1,27 @@
+{
+  "version": "v2-reviewed",
+  "parent_sha256": {
+    "train": "283aefa7c681dcd0ffcdf05dd829fde864b688615c2adc8f9da8cbf417791590",
+    "dev": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+    "test": "1d37199e8390e1f2976bd485d01ff8a30b92c32823e1ac7811364743ac391fa1"
+  },
+  "review_files_sha256": {
+    "decisions.jsonl": "78112fa46b7aebf57a200663eadf20a44fdc49347ef79ef86cc3625422de8c3a",
+    "source-records.jsonl": "2818e0c8873f055b05ef2660a3ba581a75608c2933e22b77e442b1765521ad43"
+  },
+  "prior_review_sha256": {
+    "data/preferences/sft3-program-v1/assistant-review-v1/decisions.jsonl": "d320a89e21609c8e00887d595246a47df82e61849adba89c588d0d19e2e6ce87",
+    "data/preferences/sft3-expanded-v1/assistant-expanded-v1/decisions.jsonl": "2943b42aaae5bcbbd067db39b5043238414458eec03f82c252b0782f3dc8da3e"
+  },
+  "raw_source_sha256": {
+    "train": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "dev": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+    "test": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc"
+  },
+  "scope": "80 prior preference candidates plus 2 independently source-confirmed year contradictions. Only these 82 training records adjudicated.",
+  "reviewer_type": "ai_assistant",
+  "human_reviewed": 0,
+  "training_inputs_changed": false,
+  "evaluation_labels_changed": false,
+  "unit_policy": "Keep existing fractional return-difference targets when supported. Quarantine unresolved percent/amount units; no global rescaling and no new unit field in model output. Annotated repair answer_unit is audit-only."
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+  "model": {
+    "model": "Qwen/Qwen3-0.6B",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  "sequence_lengths": {
+    "sft.jsonl": {
+      "examples": 966,
+      "max_total_tokens": 1528,
+      "min_total_tokens": 618,
+      "truncation": false
+    },
+    "sft-control.jsonl": {
+      "examples": 966,
+      "max_total_tokens": 1528,
+      "min_total_tokens": 618,
+      "truncation": false
+    }
+  },
+  "same_ids_order_and_prompts": true,
+  "different_completions": 11,
+  "holdouts_byte_identical": true,
+  "all_target_programs_pass_structural_checks": true,
+  "repaired_targets_match_independent_calculations_and_annotated_original_cells": true,
+  "semantic_audit_scope": 82,
+  "remaining_train_not_semantically_certified": true
+}

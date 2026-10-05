@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "tests_passed": 28,
+  "new_training_jobs": 4,
+  "total_audited_models": 6,
+  "new_seeds": [
+    17,
+    123
+  ],
+  "paired_training_steps_per_job": 363,
+  "all_2400_per_example_scores_recomputed": true,
+  "all_1200_executor_transformations_recomputed": true,
+  "same_966_ids_order_prompts": true,
+  "changed_completions": 11,
+  "six_distinct_adapter_checkpoints": true,
+  "company_and_id_disjoint_splits": true,
+  "same_code_environment_and_inference_config": true,
+  "prior_seed42_artifact_hashes_unchanged": true,
+  "new_seed_choice_and_analysis_frozen_before_execution": true,
+  "unique_dev_questions": 200,
+  "test_evaluated": false,
+  "audit_script_sha256": "21c4f4776acaa754eb8b0a32c0630693e1215297f9509c977fc6073857543297",
+  "artifact_inventory_sha256": "7e4cc76bf5589669ef97d2da77116f01c935b286bc5d8cd06a4c7e5b4271382a"
+}

@@ -1,0 +1,17 @@
+{
+  "reviewed": 20,
+  "approved": 10,
+  "rejected": 10,
+  "pending": 0,
+  "human_reviewed": 0,
+  "approved_independent_decimal_recalculation_passed": true,
+  "approved_rejected_answers_are_wrong_and_executor_consistent": true,
+  "all_original_tables_and_questions_crosschecked": true,
+  "all_candidates_in_custom_train_split": true,
+  "original_official_split_is_not_custom_split": true,
+  "cohort_hashes_unchanged": true,
+  "approved_export_contains_only_approved_ids": true,
+  "reviewer_provenance_on_every_approved_row": true,
+  "known_reversed_label_rejected": true,
+  "dpo_training_performed": false
+}

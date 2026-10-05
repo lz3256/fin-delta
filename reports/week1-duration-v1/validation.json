@@ -1,0 +1,9 @@
+{
+  "provenance_checks_passed": true,
+  "training_config_only_epochs_changed": true,
+  "same_inference_config_environment_prompt": true,
+  "full_cohort_no_missing_predictions": true,
+  "training_completed_375_steps": true,
+  "test_evaluated": false,
+  "real_dpo_completed": false
+}

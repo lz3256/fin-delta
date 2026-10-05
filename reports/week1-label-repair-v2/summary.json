@@ -1,0 +1,182 @@
+{
+  "metrics": {
+    "control_raw": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "8924de72bda3b5aa24e5752008ce3900502e275440ad9d652883f2a58e590a35",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 0.985,
+      "numeric_answer_accuracy_on_answerable": 0.13,
+      "verified_accuracy": 0.13,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.07582938388625593,
+        0.18181818181818182
+      ],
+      "answer_coverage": 0.985,
+      "error_rate_among_answered": 0.868020304568528,
+      "abstention_precision": null,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.0,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {
+        "unknown_source": 1,
+        "ungrounded_operand": 13,
+        "invalid_json": 3,
+        "unused_steps": 1
+      },
+      "mean_evidence_id_precision": 0.8708791208791209,
+      "mean_evidence_id_recall": 0.8106227106227106
+    },
+    "control_executor": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "d70e0465b717832326ac8a84c0c36f26eb22cca0eed216fb1f81c7636fd09c87",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 1.0,
+      "numeric_answer_accuracy_on_answerable": 0.455,
+      "verified_accuracy": 0.455,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.35978835978835977,
+        0.5393258426966292
+      ],
+      "answer_coverage": 0.91,
+      "error_rate_among_answered": 0.5,
+      "abstention_precision": 0.0,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.09,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {},
+      "mean_evidence_id_precision": 0.8708791208791209,
+      "mean_evidence_id_recall": 0.8106227106227106
+    },
+    "repaired_raw": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "cd552fcdafb2e14bbee24474e37eec97190b2a15b9dfad4f20a7cd7cfccc6bc5",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 0.985,
+      "numeric_answer_accuracy_on_answerable": 0.13,
+      "verified_accuracy": 0.13,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.08040201005025126,
+        0.18141592920353983
+      ],
+      "answer_coverage": 0.985,
+      "error_rate_among_answered": 0.868020304568528,
+      "abstention_precision": null,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.0,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {
+        "unknown_source": 1,
+        "ungrounded_operand": 12,
+        "invalid_json": 3,
+        "unused_steps": 2
+      },
+      "mean_evidence_id_precision": 0.8818681318681318,
+      "mean_evidence_id_recall": 0.8155067155067155
+    },
+    "repaired_executor": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "bc2af895851a481fcf8316eca88f11f1d7cef66edbfd349058fae4eb61fcc392",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 1.0,
+      "numeric_answer_accuracy_on_answerable": 0.46,
+      "verified_accuracy": 0.46,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.3719806763285024,
+        0.5445026178010471
+      ],
+      "answer_coverage": 0.91,
+      "error_rate_among_answered": 0.4945054945054945,
+      "abstention_precision": 0.0,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.09,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {},
+      "mean_evidence_id_precision": 0.8818681318681318,
+      "mean_evidence_id_recall": 0.8155067155067155
+    }
+  },
+  "paired_raw": {
+    "delta": 0.0,
+    "ci95": [
+      -0.02702702702702703,
+      0.030120481927710843
+    ],
+    "transitions": {
+      "0->0": 171,
+      "1->1": 23,
+      "0->1": 3,
+      "1->0": 3
+    },
+    "reports": 59,
+    "bootstrap_seed": 42,
+    "bootstrap_repetitions": 1000
+  },
+  "paired_executor": {
+    "delta": 0.005,
+    "ci95": [
+      -0.019230769230769232,
+      0.03278688524590164
+    ],
+    "transitions": {
+      "0->0": 105,
+      "1->1": 88,
+      "0->1": 4,
+      "1->0": 3
+    },
+    "reports": 59,
+    "bootstrap_seed": 42,
+    "bootstrap_repetitions": 1000
+  },
+  "train": {
+    "control": {
+      "elapsed_seconds": 623.4716293993406,
+      "peak_allocated_gib": 3.8276925086975098,
+      "peak_reserved_gib": 19.240234375,
+      "metrics": {
+        "train_runtime": 623.3258,
+        "train_samples_per_second": 4.649,
+        "train_steps_per_second": 0.582,
+        "total_flos": 9584870856523776.0,
+        "train_loss": 0.37842413544983244,
+        "entropy": 1.6291438178582625,
+        "num_tokens": 3617361.0,
+        "mean_token_accuracy": 0.9075346182693135,
+        "epoch": 3.0
+      },
+      "trainable_tensors_changed": 112,
+      "examples": 966
+    },
+    "repaired": {
+      "elapsed_seconds": 621.6847107489593,
+      "peak_allocated_gib": 3.8276925086975098,
+      "peak_reserved_gib": 19.240234375,
+      "metrics": {
+        "train_runtime": 621.5364,
+        "train_samples_per_second": 4.663,
+        "train_steps_per_second": 0.584,
+        "total_flos": 9584695977246720.0,
+        "train_loss": 0.3785363452165252,
+        "entropy": 1.6395537473938682,
+        "num_tokens": 3617295.0,
+        "mean_token_accuracy": 0.9051220985976133,
+        "epoch": 3.0
+      },
+      "trainable_tensors_changed": 112,
+      "examples": 966
+    }
+  },
+  "test_evaluated": false,
+  "raw_outputs_changed": 116
+}

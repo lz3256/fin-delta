@@ -1,0 +1,10 @@
+{
+  "n": 20,
+  "all_train": true,
+  "all_chosen_pass_arithmetic_verifier": true,
+  "all_rejected_programs_incorrect": true,
+  "rejected_programs_unchanged_from_model": true,
+  "rejected_answers_executor_consistent": true,
+  "pending_export_blocked": true,
+  "human_reviewed": 0
+}

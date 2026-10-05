@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "TSCO/2018/page_34.pdf-1",
+    "source_file": "dev.json",
+    "source_file_sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+    "question": "how much of a greater return , in percentage , was gained in the s&p retail index compared to the tractor supply company?",
+    "answer": "99.8%",
+    "program": "subtract(217.01, 100.00), divide(#0, 100.00), subtract(117.18, 100), divide(#2, 100), subtract(#1, #3)",
+    "table": [
+      [
+        "",
+        "12/28/2013",
+        "12/27/2014",
+        "12/26/2015",
+        "12/31/2016",
+        "12/30/2017",
+        "12/29/2018"
+      ],
+      [
+        "tractor supply company",
+        "$ 100.00",
+        "$ 104.11",
+        "$ 115.45",
+        "$ 103.33",
+        "$ 103.67",
+        "$ 117.18"
+      ],
+      [
+        "s&p 500",
+        "$ 100.00",
+        "$ 115.76",
+        "$ 116.64",
+        "$ 129.55",
+        "$ 157.84",
+        "$ 149.63"
+      ],
+      [
+        "s&p retail index",
+        "$ 100.00",
+        "$ 111.18",
+        "$ 140.22",
+        "$ 148.53",
+        "$ 193.68",
+        "$ 217.01"
+      ]
+    ],
+    "pre_text": [
+      "stock performance graph this performance graph shall not be deemed 201cfiled 201d for purposes of section 18 of the securities exchange act of 1934 , as amended ( the 201cexchange act 201d ) or otherwise subject to the liabilities under that section and shall not be deemed to be incorporated by reference into any filing of tractor supply company under the securities act of 1933 , as amended , or the exchange act .",
+      "the following graph compares the cumulative total stockholder return on our common stock from december 28 , 2013 to december 29 , 2018 ( the company 2019s fiscal year-end ) , with the cumulative total returns of the s&p 500 index and the s&p retail index over the same period .",
+      "the comparison assumes that $ 100 was invested on december 28 , 2013 , in our common stock and in each of the foregoing indices and in each case assumes reinvestment of dividends .",
+      "the historical stock price performance shown on this graph is not indicative of future performance. ."
+    ],
+    "post_text": [
+      "."
+    ]
+  },
+  {
+    "id": "MS/2013/page_240.pdf-3",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what is the percentage difference in future minimum rental commitments as of december 31 , 2013 between 2015 and 2016?",
+    "answer": "-5%",
+    "program": "subtract(621, 656), divide(#0, 656)",
+    "table": [
+      [
+        "year ended",
+        "operating premises leases"
+      ],
+      [
+        "2014",
+        "$ 672"
+      ],
+      [
+        "2015",
+        "656"
+      ],
+      [
+        "2016",
+        "621"
+      ],
+      [
+        "2017",
+        "554"
+      ],
+      [
+        "2018",
+        "481"
+      ],
+      [
+        "thereafter",
+        "2712"
+      ]
+    ],
+    "pre_text": [
+      "morgan stanley notes to consolidated financial statements 2014 ( continued ) lending commitments .",
+      "primary lending commitments are those that are originated by the company whereas secondary lending commitments are purchased from third parties in the market .",
+      "the commitments include lending commitments that are made to investment grade and non-investment grade companies in connection with corporate lending and other business activities .",
+      "commitments for secured lending transactions .",
+      "secured lending commitments are extended by the company to companies and are secured by real estate or other physical assets of the borrower .",
+      "loans made under these arrangements typically are at variable rates and generally provide for over-collateralization based upon the creditworthiness of the borrower .",
+      "forward starting reverse repurchase agreements .",
+      "the company has entered into forward starting securities purchased under agreements to resell ( agreements that have a trade date at or prior to december 31 , 2013 and settle subsequent to period-end ) that are primarily secured by collateral from u.s .",
+      "government agency securities and other sovereign government obligations .",
+      "commercial and residential mortgage-related commitments .",
+      "the company enters into forward purchase contracts involving residential mortgage loans , residential mortgage lending commitments to individuals and residential home equity lines of credit .",
+      "in addition , the company enters into commitments to originate commercial and residential mortgage loans .",
+      "underwriting commitments .",
+      "the company provides underwriting commitments in connection with its capital raising sources to a diverse group of corporate and other institutional clients .",
+      "other lending commitments .",
+      "other commitments generally include commercial lending commitments to small businesses and commitments related to securities-based lending activities in connection with the company 2019s wealth management business segment .",
+      "the company sponsors several non-consolidated investment funds for third-party investors where the company typically acts as general partner of , and investment advisor to , these funds and typically commits to invest a minority of the capital of such funds , with subscribing third-party investors contributing the majority .",
+      "the company 2019s employees , including its senior officers , as well as the company 2019s directors , may participate on the same terms and conditions as other investors in certain of these funds that the company forms primarily for client investment , except that the company may waive or lower applicable fees and charges for its employees .",
+      "the company has contractual capital commitments , guarantees , lending facilities and counterparty arrangements with respect to these investment funds .",
+      "premises and equipment .",
+      "the company has non-cancelable operating leases covering premises and equipment ( excluding commodities operating leases , shown separately ) .",
+      "at december 31 , 2013 , future minimum rental commitments under such leases ( net of subleases , principally on office rentals ) were as follows ( dollars in millions ) : year ended operating premises leases ."
+    ],
+    "post_text": [
+      "."
+    ]
+  },
+  {
+    "id": "AES/2001/page_33.pdf-4",
+    "source_file": "test.json",
+    "source_file_sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    "question": "what was average of high and low stock prices for the first quarter of 2000?",
+    "answer": "39.49",
+    "program": "add(44.72, 34.25), divide(#0, const_2)",
+    "table": [
+      [
+        "2001 first quarter",
+        "high $ 60.15",
+        "low $ 41.30",
+        "2000 first quarter",
+        "high $ 44.72",
+        "low $ 34.25"
+      ],
+      [
+        "second quarter",
+        "52.25",
+        "39.95",
+        "second quarter",
+        "49.63",
+        "35.56"
+      ],
+      [
+        "third quarter",
+        "44.50",
+        "12.00",
+        "third quarter",
+        "70.25",
+        "45.13"
+      ],
+      [
+        "fourth quarter",
+        "17.80",
+        "11.60",
+        "fourth quarter",
+        "72.81",
+        "45.00"
+      ]
+    ],
+    "pre_text": [
+      "part ii item 5 2014market for registrant 2019s common equity and related stockholder matters ( a ) market information .",
+      "the common stock of the company is currently traded on the new york stock exchange ( nyse ) under the symbol 2018 2018aes 2019 2019 .",
+      "the following tables set forth the high and low sale prices for the common stock as reported by the nyse for the periods indicated .",
+      "price range of common stock ."
+    ],
+    "post_text": [
+      "( b ) holders .",
+      "as of march 2 , 2002 , there were 9967 record holders of the company 2019s common stock , par value $ 0.01 per share .",
+      "( c ) dividends .",
+      "under the terms of the company 2019s corporate revolving loan and letters of credit facility of $ 850 million entered into with a commercial bank syndicate and other bank agreements , the company is currently limited in the amount of cash dividends it is allowed to pay .",
+      "in addition , the company is precluded from paying cash dividends on its common stock under the terms of a guaranty to the utility customer in connection with the aes thames project in the event certain net worth and liquidity tests of the company are not met .",
+      "the company has met these tests at all times since making the guaranty .",
+      "the ability of the company 2019s project subsidiaries to declare and pay cash dividends to the company is subject to certain limitations in the project loans , governmental provisions and other agreements entered into by such project subsidiaries .",
+      "such limitations permit the payment of cash dividends out of current cash flow for quarterly , semiannual or annual periods only at the end of such periods and only after payment of principal and interest on project loans due at the end of such periods , and in certain cases after providing for debt service reserves. ."
+    ]
+  },
+  {
+    "id": "SNA/2007/page_29.pdf-2",
+    "source_file": "test.json",
+    "source_file_sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    "question": "what is the roi in snap-on if the investment was made at the end of 2005 and sold at the end of 2007?",
+    "answer": "34.8%",
+    "program": "subtract(198.05, 146.97), divide(#0, 146.97)",
+    "table": [
+      [
+        "fiscal year ended ( 2 )",
+        "snap-on incorporated",
+        "peer group ( 3 )",
+        "s&p 500"
+      ],
+      [
+        "december 31 2002",
+        "$ 100.00",
+        "$ 100.00",
+        "$ 100.00"
+      ],
+      [
+        "december 31 2003",
+        "118.80",
+        "126.16",
+        "128.68"
+      ],
+      [
+        "december 31 2004",
+        "130.66",
+        "152.42",
+        "142.69"
+      ],
+      [
+        "december 31 2005",
+        "146.97",
+        "157.97",
+        "149.70"
+      ],
+      [
+        "december 31 2006",
+        "191.27",
+        "185.10",
+        "173.34"
+      ],
+      [
+        "december 31 2007",
+        "198.05",
+        "216.19",
+        "182.87"
+      ]
+    ],
+    "pre_text": [
+      "2007 annual report 21 five-year stock performance graph the graph below illustrates the cumulative total shareholder return on snap-on common stock since 2002 , assuming that dividends were reinvested .",
+      "the graph compares snap-on 2019s performance to that of the standard & poor 2019s 500 stock index ( 201cs&p 500 201d ) and a peer group .",
+      "snap-on incorporated total shareholder return ( 1 ) 2002 2003 2004 2005 2006 2007 snap-on incorporated peer group s&p 500 fiscal year ended ( 2 ) snap-on incorporated peer group ( 3 ) s&p 500 ."
+    ],
+    "post_text": [
+      "( 1 ) assumes $ 100 was invested on december 31 , 2002 and that dividends were reinvested quarterly .",
+      "( 2 ) the company's fiscal year ends on the saturday closest to december 31 of each year ; the fiscal year end is assumed to be december 31 for ease of calculation .",
+      "( 3 ) the peer group includes : the black & decker corporation , cooper industries , ltd. , danaher corporation , emerson electric co. , fortune brands , inc. , genuine parts company , newell rubbermaid inc. , pentair , inc. , spx corporation , the stanley works and w.w .",
+      "grainger , inc. ."
+    ]
+  },
+  {
+    "id": "DRE/2009/page_59.pdf-1",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "of the total real estate investments what was the percent of operating rental properties",
+    "answer": "96.4%",
+    "program": "divide(176038, 182538)",
+    "table": [
+      [
+        "operating rental properties",
+        "$ 176038"
+      ],
+      [
+        "undeveloped land",
+        "6500"
+      ],
+      [
+        "total real estate investments",
+        "182538"
+      ],
+      [
+        "other assets",
+        "3987"
+      ],
+      [
+        "lease related intangible assets",
+        "24350"
+      ],
+      [
+        "total assets acquired",
+        "210875"
+      ],
+      [
+        "liabilities assumed",
+        "-4023 ( 4023 )"
+      ],
+      [
+        "net recognized value of acquired assets and liabilities",
+        "$ 206852"
+      ]
+    ],
+    "pre_text": [
+      "57 annual report 2009 duke realty corporation | | use of estimates the preparation of the financial statements requires management to make a number of estimates and assumptions that affect the reported amount of assets and liabilities and the disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the period .",
+      "the most significant estimates , as discussed within our summary of significant accounting policies , pertain to the critical assumptions utilized in testing real estate assets for impairment as well as in estimating the fair value of real estate assets when an impairment event has taken place .",
+      "actual results could differ from those estimates .",
+      "( 3 ) significant acquisitions and dispositions consolidation of retail joint ventures through march 31 , 2009 , we were a member in two retail real estate joint ventures with a retail developer .",
+      "both entities were jointly controlled by us and our partner , through equal voting interests , and were accounted for as unconsolidated subsidiaries under the equity method .",
+      "as of april 1 , 2009 , we had made combined equity contributions of $ 37.9 million to the two entities and we also had combined outstanding principal and accrued interest of $ 173.0 million on advances to the two entities .",
+      "we advanced $ 2.0 million to the two entities , who then distributed the $ 2.0 million to our partner in exchange for the redemption of our partner 2019s membership interests , effective april 1 , 2009 , at which time we obtained 100% ( 100 % ) control of the voting interests of both entities .",
+      "we entered these transactions to gain control of these two entities because it will allow us to operate or dispose of the entities in a manner that best serves our capital needs .",
+      "in conjunction with the redemption of our partner 2019s membership interests , we entered a profits interest agreement that entitles our former partner to additional payments should the combined sale of the two acquired entities , as well as the sale of another retail real estate joint venture that we and our partner still jointly control , result in an aggregate profit .",
+      "aggregate profit on the sale of these three projects will be calculated by using a formula defined in the profits interest agreement .",
+      "we have estimated that the fair value of the potential additional payment to our partner is insignificant .",
+      "a summary of the fair value of amounts recognized for each major class of assets and liabilities acquired is as follows ( in thousands ) : ."
+    ],
+    "post_text": [
+      "the fair values recognized from the real estate and related assets acquired were primarily determined using the income approach .",
+      "the most significant assumptions in the fair value estimates were the discount rates and the exit capitalization rates .",
+      "the estimates of fair value were determined to have primarily relied upon level 3 inputs. ."
+    ]
+  },
+  {
+    "id": "PM/2017/page_23.pdf-1",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what portion of total facilities are located in eu?",
+    "answer": "28.3%",
+    "program": "divide(13, 46)",
+    "table": [
+      [
+        "",
+        "eu ( 1 )",
+        "eema",
+        "asia",
+        "latinamerica&canada",
+        "total"
+      ],
+      [
+        "fully integrated",
+        "7",
+        "8",
+        "9",
+        "7",
+        "31"
+      ],
+      [
+        "make-pack",
+        "3",
+        "2014",
+        "1",
+        "2",
+        "6"
+      ],
+      [
+        "other",
+        "3",
+        "1",
+        "3",
+        "2",
+        "9"
+      ],
+      [
+        "total",
+        "13",
+        "9",
+        "13",
+        "11",
+        "46"
+      ]
+    ],
+    "pre_text": [
+      "2022 the failure of our information systems to function as intended or their penetration by outside parties with the intent to corrupt them or our failure to comply with privacy laws and regulations could result in business disruption , litigation and regulatory action , and loss of revenue , assets or personal or other confidential data .",
+      "we use information systems to help manage business processes , collect and interpret business data and communicate internally and externally with employees , suppliers , customers and others .",
+      "some of these information systems are managed by third-party service providers .",
+      "we have backup systems and business continuity plans in place , and we take care to protect our systems and data from unauthorized access .",
+      "nevertheless , failure of our systems to function as intended , or penetration of our systems by outside parties intent on extracting or corrupting information or otherwise disrupting business processes , could place us at a competitive disadvantage , result in a loss of revenue , assets or personal or other sensitive data , litigation and regulatory action , cause damage to our reputation and that of our brands and result in significant remediation and other costs .",
+      "failure to protect personal data and respect the rights of data subjects could subject us to substantial fines under regulations such as the eu general data protection regulation .",
+      "2022 we may be required to replace third-party contract manufacturers or service providers with our own resources .",
+      "in certain instances , we contract with third parties to manufacture some of our products or product parts or to provide other services .",
+      "we may be unable to renew these agreements on satisfactory terms for numerous reasons , including government regulations .",
+      "accordingly , our costs may increase significantly if we must replace such third parties with our own resources .",
+      "item 1b .",
+      "unresolved staff comments .",
+      "item 2 .",
+      "properties .",
+      "at december 31 , 2017 , we operated and owned 46 manufacturing facilities and maintained contract manufacturing relationships with 25 third-party manufacturers across 23 markets .",
+      "in addition , we work with 38 third-party operators in indonesia who manufacture our hand-rolled cigarettes .",
+      "pmi-owned manufacturing facilities eema asia america canada total ."
+    ],
+    "post_text": [
+      "( 1 ) includes facilities that produced heated tobacco units in 2017 .",
+      "in 2017 , 23 of our facilities each manufactured over 10 billion cigarettes , of which eight facilities each produced over 30 billion units .",
+      "our largest factories are in karawang and sukorejo ( indonesia ) , izmir ( turkey ) , krakow ( poland ) , st .",
+      "petersburg and krasnodar ( russia ) , batangas and marikina ( philippines ) , berlin ( germany ) , kharkiv ( ukraine ) , and kutna hora ( czech republic ) .",
+      "our smallest factories are mostly in latin america and asia , where due to tariff and other constraints we have established small manufacturing units in individual markets .",
+      "we will continue to optimize our manufacturing base , taking into consideration the evolution of trade blocks .",
+      "the plants and properties owned or leased and operated by our subsidiaries are maintained in good condition and are believed to be suitable and adequate for our present needs .",
+      "we are integrating the production of heated tobacco units into a number of our existing manufacturing facilities and progressing with our plans to build manufacturing capacity for our other rrp platforms. ."
+    ]
+  },
+  {
+    "id": "PKG/2009/page_65.pdf-4",
+    "source_file": "dev.json",
+    "source_file_sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+    "question": "what percentage of total purchase commitments are due after 2014?",
+    "answer": "56%",
+    "program": "divide(25048, 44572)",
+    "table": [
+      [
+        "",
+        "( in thousands )"
+      ],
+      [
+        "2010",
+        "$ 6951"
+      ],
+      [
+        "2011",
+        "5942"
+      ],
+      [
+        "2012",
+        "3659"
+      ],
+      [
+        "2013",
+        "1486"
+      ],
+      [
+        "2014",
+        "1486"
+      ],
+      [
+        "thereafter",
+        "25048"
+      ],
+      [
+        "total",
+        "$ 44572"
+      ]
+    ],
+    "pre_text": [
+      "purchase commitments the company has entered into various purchase agreements for minimum amounts of pulpwood processing and energy over periods ranging from one to twenty years at fixed prices .",
+      "total purchase commitments are as follows: ."
+    ],
+    "post_text": [
+      "these purchase agreements are not marked to market .",
+      "the company purchased $ 37.3 million , $ 29.4 million , and $ 14.5 million during the years ended december 31 , 2009 , 2008 and 2007 , respectively , under these purchase agreements .",
+      "litigation pca is a party to various legal actions arising in the ordinary course of business .",
+      "these legal actions cover a broad variety of claims spanning our entire business .",
+      "as of the date of this filing , the company believes it is not reasonably possible that the resolution of these legal actions will , individually or in the aggregate , have a material adverse effect on its financial position , results of operations , or cash flows .",
+      "environmental liabilities the potential costs for various environmental matters are uncertain due to such factors as the unknown magnitude of possible cleanup costs , the complexity and evolving nature of governmental laws and regulations and their interpretations , and the timing , varying costs and effectiveness of alternative cleanup technologies .",
+      "from 1994 through 2009 , remediation costs at the company 2019s mills and corrugated plants totaled approximately $ 3.2 million .",
+      "as of december 31 , 2009 , the company maintained an environmental reserve of $ 9.1 million relating to on-site landfills ( see note 13 ) and surface impoundments as well as ongoing and anticipated remedial projects .",
+      "liabilities recorded for environmental contingencies are estimates of the probable costs based upon available information and assumptions .",
+      "because of these uncertainties , pca 2019s estimates may change .",
+      "as of the date of this filing , the company believes that it is not reasonably possible that future environmental expenditures and asset retirement obligations above the $ 9.1 million accrued as of december 31 , 2009 , will have a material impact on its financial condition , results of operations , or cash flows .",
+      "in connection with the sale to pca of its containerboard and corrugated products business , pactiv agreed to retain all liability for all former facilities and all sites associated with pre-closing off-site waste disposal and all environmental liabilities related to a closed landfill located near the company 2019s filer city mill .",
+      "13 .",
+      "asset retirement obligations asset retirement obligations consist primarily of landfill capping and closure and post-closure costs .",
+      "pca is legally required to perform capping and closure and post-closure care on the landfills at each of the company 2019s mills .",
+      "in accordance with asc 410 , 201c asset retirement and environmental obligations , 201d pca recognizes the fair value of these liabilities as an asset retirement obligation for each landfill and capitalizes packaging corporation of america notes to consolidated financial statements ( continued ) december 31 , 2009 ."
+    ]
+  },
+  {
+    "id": "GPN/2009/page_70.pdf-3",
+    "source_file": "dev.json",
+    "source_file_sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+    "question": "what percent of assets acquired by the acquisition are non-tangible assets?",
+    "answer": "96%",
+    "program": "add(13536, 4091), add(#0, 1031), divide(#1, 19427)",
+    "table": [
+      [
+        "",
+        "total"
+      ],
+      [
+        "goodwill",
+        "$ 13536"
+      ],
+      [
+        "customer-related intangible assets",
+        "4091"
+      ],
+      [
+        "contract-based intangible assets",
+        "1031"
+      ],
+      [
+        "property and equipment",
+        "267"
+      ],
+      [
+        "other current assets",
+        "502"
+      ],
+      [
+        "total assets acquired",
+        "19427"
+      ],
+      [
+        "current liabilities",
+        "-2347 ( 2347 )"
+      ],
+      [
+        "minority interest in equity of subsidiary ( at historical cost )",
+        "-486 ( 486 )"
+      ],
+      [
+        "net assets acquired",
+        "$ 16594"
+      ]
+    ],
+    "pre_text": [
+      "notes to consolidated financial statements 2014 ( continued ) in connection with these discover related purchases , we have sold the contractual rights to future commissions on discover transactions to certain of our isos .",
+      "contractual rights sold totaled $ 7.6 million during the year ended may 31 , 2008 and $ 1.0 million during fiscal 2009 .",
+      "such sale proceeds are generally collected in installments over periods ranging from three to nine months .",
+      "during fiscal 2009 , we collected $ 4.4 million of such proceeds , which are included in the proceeds from sale of investment and contractual rights in our consolidated statement of cash flows .",
+      "we do not recognize gains on these sales of contractual rights at the time of sale .",
+      "proceeds are deferred and recognized as a reduction of the related commission expense .",
+      "during fiscal 2009 , we recognized $ 1.2 million of such deferred sales proceeds as other long-term liabilities .",
+      "other 2008 acquisitions during fiscal 2008 , we acquired a majority of the assets of euroenvios money transfer , s.a .",
+      "and euroenvios conecta , s.l. , which we collectively refer to as lfs spain .",
+      "lfs spain consisted of two privately- held corporations engaged in money transmittal and ancillary services from spain to settlement locations primarily in latin america .",
+      "the purpose of the acquisition was to further our strategy of expanding our customer base and market share by opening additional branch locations .",
+      "during fiscal 2008 , we acquired a series of money transfer branch locations in the united states .",
+      "the purpose of these acquisitions was to increase the market presence of our dolex-branded money transfer offering .",
+      "the following table summarizes the preliminary purchase price allocations of all these fiscal 2008 business acquisitions ( in thousands ) : ."
+    ],
+    "post_text": [
+      "the customer-related intangible assets have amortization periods of up to 14 years .",
+      "the contract-based intangible assets have amortization periods of 3 to 10 years .",
+      "these business acquisitions were not significant to our consolidated financial statements and accordingly , we have not provided pro forma information relating to these acquisitions .",
+      "in addition , during fiscal 2008 , we acquired a customer list and long-term merchant referral agreement in our canadian merchant services channel for $ 1.7 million .",
+      "the value assigned to the customer list of $ 0.1 million was expensed immediately .",
+      "the remaining value was assigned to the merchant referral agreement and is being amortized on a straight-line basis over its useful life of 10 years .",
+      "fiscal 2007 on july 24 , 2006 , we completed the purchase of a fifty-six percent ownership interest in the asia-pacific merchant acquiring business of the hongkong and shanghai banking corporation limited , or hsbc asia pacific .",
+      "this business provides card payment processing services to merchants in the asia-pacific region .",
+      "the ."
+    ]
+  },
+  {
+    "id": "ETR/2004/page_163.pdf-5",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what is the percent change in receivables from or ( payables to ) the money pool from 2001 to 2002?",
+    "answer": "456%",
+    "program": "subtract(23794, 4279), divide(#0, 4279)",
+    "table": [
+      [
+        "2004",
+        "2003",
+        "2002",
+        "2001"
+      ],
+      [
+        "( in thousands )",
+        "( in thousands )",
+        "( in thousands )",
+        "( in thousands )"
+      ],
+      [
+        "$ 23561",
+        "( $ 69153 )",
+        "$ 4279",
+        "$ 23794"
+      ]
+    ],
+    "pre_text": [
+      "entergy arkansas , inc .",
+      "management's financial discussion and analysis operating activities cash flow from operations increased $ 8.8 million in 2004 compared to 2003 primarily due to income tax benefits received in 2004 , and increased recovery of deferred fuel costs .",
+      "this increase was substantially offset by money pool activity .",
+      "in 2003 , the domestic utility companies and system energy filed , with the irs , a change in tax accounting method notification for their respective calculations of cost of goods sold .",
+      "the adjustment implemented a simplified method of allocation of overhead to the production of electricity , which is provided under the irs capitalization regulations .",
+      "the cumulative adjustment placing these companies on the new methodology resulted in a $ 1.171 billion deduction for entergy arkansas on entergy's 2003 income tax return .",
+      "there was no cash benefit from the method change in 2003 .",
+      "in 2004 , entergy arkansas realized $ 173 million in cash tax benefit from the method change .",
+      "this tax accounting method change is an issue across the utility industry and will likely be challenged by the irs on audit .",
+      "as of december 31 , 2004 , entergy arkansas has a net operating loss ( nol ) carryforward for tax purposes of $ 766.9 million , principally resulting from the change in tax accounting method related to cost of goods sold .",
+      "if the tax accounting method change is sustained , entergy arkansas expects to utilize the nol carryforward through 2006 .",
+      "cash flow from operations increased $ 80.1 million in 2003 compared to 2002 primarily due to income taxes paid of $ 2.2 million in 2003 compared to income taxes paid of $ 83.9 million in 2002 , and money pool activity .",
+      "this increase was partially offset by decreased recovery of deferred fuel costs in 2003 .",
+      "entergy arkansas' receivables from or ( payables to ) the money pool were as follows as of december 31 for each of the following years: ."
+    ],
+    "post_text": [
+      "money pool activity used $ 92.7 million of entergy arkansas' operating cash flow in 2004 , provided $ 73.4 million in 2003 , and provided $ 19.5 million in 2002 .",
+      "see note 4 to the domestic utility companies and system energy financial statements for a description of the money pool .",
+      "investing activities the decrease of $ 68.1 million in net cash used in investing activities in 2004 compared to 2003 was primarily due to a decrease in construction expenditures resulting from less transmission upgrade work requested by merchant generators in 2004 combined with lower spending on customer support projects in 2004 .",
+      "the increase of $ 88.1 million in net cash used in investing activities in 2003 compared to 2002 was primarily due to an increase in construction expenditures of $ 57.4 million and the maturity of $ 38.4 million of other temporary investments in the first quarter of 2002 .",
+      "construction expenditures increased in 2003 primarily due to the following : 2022 a ferc ruling that shifted responsibility for transmission upgrade work performed for independent power producers to entergy arkansas ; and 2022 the ano 1 steam generator , reactor vessel head , and transformer replacement project .",
+      "financing activities the decrease of $ 90.7 million in net cash used in financing activities in 2004 compared to 2003 was primarily due to the net redemption of $ 2.4 million of long-term debt in 2004 compared to $ 109.3 million in 2003 , partially offset by the payment of $ 16.2 million more in common stock dividends during the same period. ."
+    ]
+  },
+  {
+    "id": "ETR/2016/page_17.pdf-2",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what portion of the net change in net revenue is due to retail electric price?",
+    "answer": "82.6%",
+    "program": "subtract(6179, 5829), divide(289, #0)",
+    "table": [
+      [
+        "",
+        "amount ( in millions )"
+      ],
+      [
+        "2015 net revenue",
+        "$ 5829"
+      ],
+      [
+        "retail electric price",
+        "289"
+      ],
+      [
+        "louisiana business combination customer credits",
+        "107"
+      ],
+      [
+        "volume/weather",
+        "14"
+      ],
+      [
+        "louisiana act 55 financing savings obligation",
+        "-17 ( 17 )"
+      ],
+      [
+        "other",
+        "-43 ( 43 )"
+      ],
+      [
+        "2016 net revenue",
+        "$ 6179"
+      ]
+    ],
+    "pre_text": [
+      "entergy corporation and subsidiaries management 2019s financial discussion and analysis palisades plants and related assets to their fair values .",
+      "see note 14 to the financial statements for further discussion of the impairment and related charges .",
+      "as a result of the entergy louisiana and entergy gulf states louisiana business combination , results of operations for 2015 also include two items that occurred in october 2015 : 1 ) a deferred tax asset and resulting net increase in tax basis of approximately $ 334 million and 2 ) a regulatory liability of $ 107 million ( $ 66 million net-of-tax ) as a result of customer credits to be realized by electric customers of entergy louisiana , consistent with the terms of the stipulated settlement in the business combination proceeding .",
+      "see note 2 to the financial statements for further discussion of the business combination and customer credits .",
+      "results of operations for 2015 also include the sale in december 2015 of the 583 mw rhode island state energy center for a realized gain of $ 154 million ( $ 100 million net-of-tax ) on the sale and the $ 77 million ( $ 47 million net-of-tax ) write-off and regulatory charges to recognize that a portion of the assets associated with the waterford 3 replacement steam generator project is no longer probable of recovery .",
+      "see note 14 to the financial statements for further discussion of the rhode island state energy center sale .",
+      "see note 2 to the financial statements for further discussion of the waterford 3 write-off .",
+      "net revenue utility following is an analysis of the change in net revenue comparing 2016 to 2015 .",
+      "amount ( in millions ) ."
+    ],
+    "post_text": [
+      "the retail electric price variance is primarily due to : 2022 an increase in base rates at entergy arkansas , as approved by the apsc .",
+      "the new rates were effective february 24 , 2016 and began billing with the first billing cycle of april 2016 .",
+      "the increase includes an interim base rate adjustment surcharge , effective with the first billing cycle of april 2016 , to recover the incremental revenue requirement for the period february 24 , 2016 through march 31 , 2016 .",
+      "a significant portion of the increase is related to the purchase of power block 2 of the union power station ; 2022 an increase in the purchased power and capacity acquisition cost recovery rider for entergy new orleans , as approved by the city council , effective with the first billing cycle of march 2016 , primarily related to the purchase of power block 1 of the union power station ; 2022 an increase in formula rate plan revenues for entergy louisiana , implemented with the first billing cycle of march 2016 , to collect the estimated first-year revenue requirement related to the purchase of power blocks 3 and 4 of the union power station ; and 2022 an increase in revenues at entergy mississippi , as approved by the mpsc , effective with the first billing cycle of july 2016 , and an increase in revenues collected through the storm damage rider .",
+      "see note 2 to the financial statements for further discussion of the rate proceedings .",
+      "see note 14 to the financial statements for discussion of the union power station purchase .",
+      "the louisiana business combination customer credits variance is due to a regulatory liability of $ 107 million recorded by entergy in october 2015 as a result of the entergy gulf states louisiana and entergy louisiana business ."
+    ]
+  },
+  {
+    "id": "GPN/2009/page_85.pdf-3",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what was the percentage increase of total fair value of share awards vested from 2007 to 2009?",
+    "answer": "265% increase",
+    "program": "subtract(6.2, 1.7), divide(#0, 1.7)",
+    "table": [
+      [
+        "",
+        "share awards",
+        "weighted average grant-date fair value"
+      ],
+      [
+        "non-vested at may 31 2007",
+        "278",
+        "$ 37"
+      ],
+      [
+        "granted",
+        "400",
+        "38"
+      ],
+      [
+        "vested",
+        "-136 ( 136 )",
+        "30"
+      ],
+      [
+        "forfeited",
+        "-24 ( 24 )",
+        "40"
+      ],
+      [
+        "non-vested at may 31 2008",
+        "518",
+        "39"
+      ],
+      [
+        "granted",
+        "430",
+        "43"
+      ],
+      [
+        "vested",
+        "-159 ( 159 )",
+        "39"
+      ],
+      [
+        "forfeited",
+        "-27 ( 27 )",
+        "41"
+      ],
+      [
+        "non-vested at may 31 2009",
+        "762",
+        "42"
+      ]
+    ],
+    "pre_text": [
+      "notes to consolidated financial statements 2014 ( continued ) the following table summarizes the changes in non-vested restricted stock awards for the year ended may 31 , 2009 ( share awards in thousands ) : share awards weighted average grant-date fair value ."
+    ],
+    "post_text": [
+      "the weighted average grant-date fair value of share awards granted in the years ended may 31 , 2008 and 2007 was $ 38 and $ 45 , respectively .",
+      "the total fair value of share awards vested during the years ended may 31 , 2009 , 2008 and 2007 was $ 6.2 million , $ 4.1 million and $ 1.7 million , respectively .",
+      "we recognized compensation expense for restricted stock of $ 9.0 million , $ 5.7 million , and $ 2.7 million in the years ended may 31 , 2009 , 2008 and 2007 .",
+      "as of may 31 , 2009 , there was $ 23.5 million of total unrecognized compensation cost related to unvested restricted stock awards that is expected to be recognized over a weighted average period of 2.9 years .",
+      "employee stock purchase plan we have an employee stock purchase plan under which the sale of 2.4 million shares of our common stock has been authorized .",
+      "employees may designate up to the lesser of $ 25000 or 20% ( 20 % ) of their annual compensation for the purchase of stock .",
+      "the price for shares purchased under the plan is 85% ( 85 % ) of the market value on the last day of the quarterly purchase period .",
+      "as of may 31 , 2009 , 0.8 million shares had been issued under this plan , with 1.6 million shares reserved for future issuance .",
+      "the weighted average grant-date fair value of each designated share purchased under this plan was $ 6 , $ 6 and $ 8 in the years ended may 31 , 2009 , 2008 and 2007 , respectively .",
+      "these values represent the fair value of the 15% ( 15 % ) discount .",
+      "note 12 2014segment information general information during fiscal 2009 , we began assessing our operating performance using a new segment structure .",
+      "we made this change as a result of our june 30 , 2008 acquisition of 51% ( 51 % ) of hsbc merchant services llp in the united kingdom , in addition to anticipated future international expansion .",
+      "beginning with the quarter ended august 31 , 2008 , the reportable segments are defined as north america merchant services , international merchant services , and money transfer .",
+      "the following tables reflect these changes and such reportable segments for fiscal years 2009 , 2008 , and 2007. ."
+    ]
+  },
+  {
+    "id": "CME/2012/page_73.pdf-3",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what is the unrealized gain pre-tex for bm&fbovespa?",
+    "answer": "427.7",
+    "program": "subtract(690.6, 262.9)",
+    "table": [
+      [
+        "( in millions )",
+        "costbasis",
+        "fairvalue",
+        "carryingvalue",
+        "unrealizedgainnet of tax"
+      ],
+      [
+        "bm&fbovespa s.a .",
+        "$ 262.9",
+        "$ 690.6",
+        "$ 690.6",
+        "$ 271.4"
+      ],
+      [
+        "bolsa mexicana de valores s.a.b . de c.v .",
+        "17.3",
+        "29.3",
+        "29.3",
+        "7.6"
+      ],
+      [
+        "imarex asa",
+        "2014",
+        "1.8",
+        "1.8",
+        "1.1"
+      ]
+    ],
+    "pre_text": [
+      "subject to fluctuation and , consequently , the amount realized in the subsequent sale of an investment may differ significantly from its current reported value .",
+      "fluctuations in the market price of a security may result from perceived changes in the underlying economic characteristics of the issuer , the relative price of alternative investments and general market conditions .",
+      "the table below summarizes equity investments that are subject to equity price fluctuations at december 31 , 2012 .",
+      "equity investments are included in other assets in our consolidated balance sheets .",
+      "( in millions ) carrying unrealized net of tax ."
+    ],
+    "post_text": [
+      "we do not currently hedge against equity price risk .",
+      "equity investments are assessed for other-than- temporary impairment on a quarterly basis. ."
+    ]
+  },
+  {
+    "id": "AES/2001/page_78.pdf-2",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "disco losses improved by how much in 2001?",
+    "answer": "27000000",
+    "program": "subtract(58, 31), multiply(#0, const_1000000)",
+    "table": [
+      [
+        "",
+        "year ended december 31 2000"
+      ],
+      [
+        "revenue",
+        "$ 8137"
+      ],
+      [
+        "income before extraordinary items",
+        "833"
+      ],
+      [
+        "net income",
+        "822"
+      ],
+      [
+        "basic earnings per share",
+        "$ 1.67"
+      ],
+      [
+        "diluted earnings per share",
+        "$ 1.61"
+      ]
+    ],
+    "pre_text": [
+      "mw mamonal plant .",
+      "approximately $ 77 million of the purchase price was allocated to goodwill and is being amortized over 32 years .",
+      "the termocandelaria power plant has been included in discontinued operations in the accompanying consolidated financial statements .",
+      "the table below presents supplemental unaudited pro forma operating results as if all of the acquisitions had occurred at the beginning of the periods shown ( in millions , except per share amounts ) .",
+      "no pro forma operating results are provided for 2001 , because the impact would not have been material .",
+      "the pro forma amounts include certain adjustments , primarily for depreciation and amortization based on the allocated purchase price and additional interest expense : year ended december 31 , 2000 ."
+    ],
+    "post_text": [
+      "the pro forma results are based upon assumptions and estimates that the company believes are reasonable .",
+      "the pro forma results do not purport to be indicative of the results that actually would have been obtained had the acquisitions occurred at the beginning of the periods shown , nor are they intended to be a projection of future results .",
+      "3 .",
+      "discontinued operations effective january 1 , 2001 , the company adopted sfas no .",
+      "144 .",
+      "this statement addresses financial accounting and reporting for the impairment or disposal of long-lived assets .",
+      "sfas no .",
+      "144 requires a component of an entity that either has been disposed of or is classified as held for sale to be reported as discontinued operations if certain conditions are met .",
+      "during the year , the company decided to exit certain of its businesses .",
+      "these businesses included power direct , geoutilities , termocandelaria , ib valley and several telecommunications businesses in brazil and the u.s .",
+      "the businesses were either disposed of or abandoned during the year or were classified as held for sale at december 31 , 2001 .",
+      "for those businesses disposed of or abandoned , the company determined that significant adverse changes in legal factors and/or the business climate , such as unfavorable market conditions and low tariffs , negatively affected the value of these assets .",
+      "the company has certain businesses that are held for sale , including termocandelaria .",
+      "the company has approved and committed to a plan to sell these assets , they are available for immediate sale , and a plan has been established to locate a buyer at a reasonable fair market value price .",
+      "the company believes it will sell these assets within one year and it is unlikely that significant changes will be made to the plan to sell .",
+      "at december 31 , 2001 , the assets and liabilities associated with the discontinued operations are segregated on the consolidated balance sheets .",
+      "a majority of the long-lived assets related to discontinued operations are for the termocandelaria competitive supply business located in colombia .",
+      "the revenues associated with the discontinued operations were $ 287 million , $ 74 million and $ 7 million for the years ended december 31 , 2001 , 2000 and 1999 , respectively .",
+      "the pretax losses associated with the discontinued operations were $ 58 million , $ 31 million and $ 4 million for each of the years ended december 31 , 2001 , 2000 and 1999 , respectively .",
+      "the loss on disposal and impairment write-downs for those businesses held for sale , net of tax associated with the discontinued operations , was $ 145 million for the year ended december 31 , 2001. ."
+    ]
+  },
+  {
+    "id": "DG/2010/page_136.pdf-2",
+    "source_file": "test.json",
+    "source_file_sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    "question": "what is the minimum depreciation rate that can be used for furniture fixtures and equipment?",
+    "answer": "10%",
+    "program": "divide(const_100, 10)",
+    "table": [
+      [
+        "land improvements",
+        "20"
+      ],
+      [
+        "buildings",
+        "39 - 40"
+      ],
+      [
+        "furniture fixtures and equipment",
+        "3 - 10"
+      ]
+    ],
+    "pre_text": [
+      "dollar general corporation and subsidiaries notes to consolidated financial statements ( continued ) 1 .",
+      "basis of presentation and accounting policies ( continued ) vendor rebates the company accounts for all cash consideration received from vendors in accordance with applicable accounting standards pertaining to such arrangements .",
+      "cash consideration received from a vendor is generally presumed to be a rebate or an allowance and is accounted for as a reduction of merchandise purchase costs as earned .",
+      "however , certain specific , incremental and otherwise qualifying sg&a expenses related to the promotion or sale of vendor products may be offset by cash consideration received from vendors , in accordance with arrangements such as cooperative advertising , when earned for dollar amounts up to but not exceeding actual incremental costs .",
+      "the company recognizes amounts received for cooperative advertising on performance , 2018 2018first showing 2019 2019 or distribution , consistent with its policy for advertising expense in accordance with applicable accounting standards for reporting on advertising costs .",
+      "prepaid expenses and other current assets prepaid expenses and other current assets include prepaid amounts for rent , maintenance , advertising , and insurance , as well as amounts receivable for certain vendor rebates ( primarily those expected to be collected in cash ) , coupons , and other items .",
+      "property and equipment property and equipment are recorded at cost .",
+      "the company provides for depreciation and amortization on a straight-line basis over the following estimated useful lives: ."
+    ],
+    "post_text": [
+      "improvements of leased properties are amortized over the shorter of the life of the applicable lease term or the estimated useful life of the asset .",
+      "impairment of long-lived assets when indicators of impairment are present , the company evaluates the carrying value of long-lived assets , other than goodwill , in relation to the operating performance and future cash flows or the appraised values of the underlying assets .",
+      "in accordance with accounting standards for long-lived assets , the company reviews for impairment stores open more than two years for which current cash flows from operations are negative .",
+      "impairment results when the carrying value of the assets exceeds the undiscounted future cash flows over the life of the lease .",
+      "the company 2019s estimate of undiscounted future cash flows over the lease term is based upon historical operations of the stores and estimates of future store profitability which encompasses many factors that are subject to variability and difficult to predict .",
+      "if a long-lived asset is found to be impaired , the amount recognized for impairment is equal to the difference between the carrying value and the asset 2019s estimated fair value .",
+      "the fair value is estimated based primarily upon estimated future cash flows ( discounted at the company 2019s credit adjusted risk-free rate ) or other reasonable estimates of fair market value .",
+      "assets to be disposed of are adjusted to the fair value less the cost to sell if less than the book value. ."
+    ]
+  },
+  {
+    "id": "AAPL/2015/page_24.pdf-2",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what was the change in the s&p 500 index between 2010 and 2015?",
+    "answer": "87",
+    "program": "subtract(187, const_100)",
+    "table": [
+      [
+        "",
+        "september 2010",
+        "september 2011",
+        "september 2012",
+        "september 2013",
+        "september 2014",
+        "september 2015"
+      ],
+      [
+        "apple inc .",
+        "$ 100",
+        "$ 138",
+        "$ 229",
+        "$ 170",
+        "$ 254",
+        "$ 294"
+      ],
+      [
+        "s&p 500 index",
+        "$ 100",
+        "$ 101",
+        "$ 132",
+        "$ 157",
+        "$ 188",
+        "$ 187"
+      ],
+      [
+        "s&p information technology index",
+        "$ 100",
+        "$ 104",
+        "$ 137",
+        "$ 147",
+        "$ 190",
+        "$ 194"
+      ],
+      [
+        "dow jones u.s . technology supersector index",
+        "$ 100",
+        "$ 103",
+        "$ 134",
+        "$ 141",
+        "$ 183",
+        "$ 183"
+      ]
+    ],
+    "pre_text": [
+      "table of contents company stock performance the following graph shows a comparison of cumulative total shareholder return , calculated on a dividend reinvested basis , for the company , the s&p 500 index , the s&p information technology index and the dow jones u.s .",
+      "technology supersector index for the five years ended september 26 , 2015 .",
+      "the graph assumes $ 100 was invested in each of the company 2019s common stock , the s&p 500 index , the s&p information technology index and the dow jones u.s .",
+      "technology supersector index as of the market close on september 24 , 2010 .",
+      "note that historic stock price performance is not necessarily indicative of future stock price performance .",
+      "* $ 100 invested on 9/25/10 in stock or index , including reinvestment of dividends .",
+      "data points are the last day of each fiscal year for the company 2019scommon stock and september 30th for indexes .",
+      "copyright a9 2015 s&p , a division of mcgraw hill financial .",
+      "all rights reserved .",
+      "copyright a9 2015 dow jones & co .",
+      "all rights reserved .",
+      "september september september september september september ."
+    ],
+    "post_text": [
+      "apple inc .",
+      "| 2015 form 10-k | 21 ."
+    ]
+  },
+  {
+    "id": "AMAT/2015/page_31.pdf-2",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "based on the table , how much more square feet is owned outside the united states?",
+    "answer": "2731 thousand square feet .",
+    "program": "subtract(7035, 4304)",
+    "table": [
+      [
+        "( square feet in thousands )",
+        "united states",
+        "other countries",
+        "total"
+      ],
+      [
+        "owned",
+        "3748",
+        "1624",
+        "5372"
+      ],
+      [
+        "leased",
+        "556",
+        "1107",
+        "1663"
+      ],
+      [
+        "total",
+        "4304",
+        "2731",
+        "7035"
+      ]
+    ],
+    "pre_text": [
+      "item 2 : properties information concerning applied's properties at october 25 , 2015 is set forth below: ."
+    ],
+    "post_text": [
+      "because of the interrelation of applied's operations , properties within a country may be shared by the segments operating within that country .",
+      "the company's headquarters offices are in santa clara , california .",
+      "products in silicon systems are manufactured in austin , texas ; gloucester , massachusetts ; rehovot , israel ; and singapore .",
+      "remanufactured equipment products in the applied global services segment are produced primarily in austin , texas .",
+      "products in the display segment are manufactured in tainan , taiwan and santa clara , california .",
+      "products in the energy and environmental solutions segment are primarily manufactured in alzenau , germany and treviso , italy .",
+      "applied also owns and leases offices , plants and warehouse locations in many locations throughout the world , including in europe , japan , north america ( principally the united states ) , israel , china , india , korea , southeast asia and taiwan .",
+      "these facilities are principally used for manufacturing ; research , development and engineering ; and marketing , sales and customer support .",
+      "applied also owns a total of approximately 139 acres of buildable land in texas , california , israel and italy that could accommodate additional building space .",
+      "applied considers the properties that it owns or leases as adequate to meet its current and future requirements .",
+      "applied regularly assesses the size , capability and location of its global infrastructure and periodically makes adjustments based on these assessments. ."
+    ]
+  },
+  {
+    "id": "RE/2010/page_120.pdf-3",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what is the tax rate on the cumulative-effect adjustment?",
+    "answer": "12.7%",
+    "program": "divide(8346, 65658)",
+    "table": [
+      [
+        "cumulative-effect adjustment gross",
+        "$ 65658"
+      ],
+      [
+        "tax",
+        "-8346 ( 8346 )"
+      ],
+      [
+        "cumulative-effect adjustment net",
+        "$ 57312"
+      ]
+    ],
+    "pre_text": [
+      "other-than-temporary impairments on investment securities .",
+      "in april 2009 , the fasb revised the authoritative guidance for the recognition and presentation of other-than-temporary impairments .",
+      "this new guidance amends the recognition guidance for other-than-temporary impairments of debt securities and expands the financial statement disclosures for other-than-temporary impairments on debt and equity securities .",
+      "for available for sale debt securities that the company has no intent to sell and more likely than not will not be required to sell prior to recovery , only the credit loss component of the impairment would be recognized in earnings , while the rest of the fair value loss would be recognized in accumulated other comprehensive income ( loss ) .",
+      "the company adopted this guidance effective april 1 , 2009 .",
+      "upon adoption the company recognized a cumulative-effect adjustment increase in retained earnings ( deficit ) and decrease in accumulated other comprehensive income ( loss ) as follows : ( dollars in thousands ) ."
+    ],
+    "post_text": [
+      "measurement of fair value in inactive markets .",
+      "in april 2009 , the fasb revised the authoritative guidance for fair value measurements and disclosures , which reaffirms that fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date under current market conditions .",
+      "it also reaffirms the need to use judgment in determining if a formerly active market has become inactive and in determining fair values when the market has become inactive .",
+      "there was no impact to the company 2019s financial statements upon adoption .",
+      "fair value disclosures about pension plan assets .",
+      "in december 2008 , the fasb revised the authoritative guidance for employers 2019 disclosures about pension plan assets .",
+      "this new guidance requires additional disclosures about the components of plan assets , investment strategies for plan assets and significant concentrations of risk within plan assets .",
+      "the company , in conjunction with fair value measurement of plan assets , separated plan assets into the three fair value hierarchy levels and provided a roll forward of the changes in fair value of plan assets classified as level 3 in the 2009 annual consolidated financial statements .",
+      "these disclosures had no effect on the company 2019s accounting for plan benefits and obligations .",
+      "revisions to earnings per share calculation .",
+      "in june 2008 , the fasb revised the authoritative guidance for earnings per share for determining whether instruments granted in share-based payment transactions are participating securities .",
+      "this new guidance requires unvested share-based payment awards that contain non- forfeitable rights to dividends be considered as a separate class of common stock and included in the earnings per share calculation using the two-class method .",
+      "the company 2019s restricted share awards meet this definition and are therefore included in the basic earnings per share calculation .",
+      "additional disclosures for derivative instruments .",
+      "in march 2008 , the fasb issued authoritative guidance for derivative instruments and hedging activities , which requires enhanced disclosures on derivative instruments and hedged items .",
+      "on january 1 , 2009 , the company adopted the additional disclosure for the equity index put options .",
+      "no comparative information for periods prior to the effective date was required .",
+      "this guidance had no impact on how the company records its derivatives. ."
+    ]
+  },
+  {
+    "id": "AES/2011/page_261.pdf-3",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "for the huntington beach facility in california , the write down was what percent of the total carrying value?",
+    "answer": "69.4%",
+    "program": "divide(200, 288)",
+    "table": [
+      [
+        "",
+        "2010 ( in millions )"
+      ],
+      [
+        "southland ( huntington beach )",
+        "$ 200"
+      ],
+      [
+        "tisza ii",
+        "85"
+      ],
+      [
+        "deepwater",
+        "79"
+      ],
+      [
+        "other",
+        "25"
+      ],
+      [
+        "total",
+        "$ 389"
+      ]
+    ],
+    "pre_text": [
+      "the aes corporation notes to consolidated financial statements 2014 ( continued ) december 31 , 2011 , 2010 , and 2009 may require the government to acquire an ownership interest and the current expectation of future losses .",
+      "our evaluation indicated that the long-lived assets were no longer recoverable and , accordingly , they were written down to their estimated fair value of $ 24 million based on a discounted cash flow analysis .",
+      "the long-lived assets had a carrying amount of $ 66 million prior to the recognition of asset impairment expense .",
+      "kelanitissa is a build- operate-transfer ( bot ) generation facility and payments under its ppa are scheduled to decline over the ppa term .",
+      "it is possible that further impairment charges may be required in the future as kelanitissa gets closer to the bot date .",
+      "kelanitissa is reported in the asia generation reportable segment .",
+      "asset impairment expense for the year ended december 31 , 2010 consisted of : ( in millions ) ."
+    ],
+    "post_text": [
+      "southland 2014in september 2010 , a new environmental policy on the use of ocean water to cool generation facilities was issued in california that requires generation plants to comply with the policy by december 31 , 2020 and would require significant capital expenditure or plants 2019 shutdown .",
+      "the company 2019s huntington beach gas-fired generation facility in california , which is part of aes 2019 southland business , was impacted by the new policy .",
+      "the company performed an asset impairment test and determined the fair value of the asset group using a discounted cash flow analysis .",
+      "the carrying value of the asset group of $ 288 million exceeded the fair value of $ 88 million resulting in the recognition of asset impairment expense of $ 200 million for the year ended december 31 , 2010 .",
+      "southland is reported in the north america generation reportable segment .",
+      "tisza ii 2014during the third quarter of 2010 , the company entered into annual negotiations with the offtaker of tisza ii .",
+      "as a result of these preliminary negotiations , as well as the further deterioration of the economic environment in hungary , the company determined that an indicator of impairment existed at september 30 , 2010 .",
+      "thus , the company performed an asset impairment test and determined that based on the undiscounted cash flow analysis , the carrying amount of the tisza ii asset group was not recoverable .",
+      "the fair value of the asset group was then determined using a discounted cash flow analysis .",
+      "the carrying value of the tisza ii asset group of $ 160 million exceeded the fair value of $ 75 million resulting in the recognition of asset impairment expense of $ 85 million during the year ended december 31 , 2010 .",
+      "deepwater 2014in 2010 , deepwater , our 160 mw petcoke-fired merchant power plant located in texas , experienced deteriorating market conditions due to increasing petcoke prices and diminishing power prices .",
+      "as a result , deepwater incurred operating losses and was shut down from time to time to avoid negative operating margin .",
+      "in the fourth quarter of 2010 , management concluded that , on an undiscounted cash flow basis , the carrying amount of the asset group was no longer recoverable .",
+      "the fair value of deepwater was determined using a discounted cash flow analysis and $ 79 million of impairment expense was recognized .",
+      "deepwater is reported in the north america generation reportable segment. ."
+    ]
+  },
+  {
+    "id": "EW/2014/page_35.pdf-2",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what was the difference in percentage 5 year cumulative total return between edwards lifesciences corporation and the s&p 500?",
+    "answer": "88%",
+    "program": "subtract(293.33, 100), divide(#0, 100), subtract(205.14, 100), divide(#2, 100), subtract(#1, #3)",
+    "table": [
+      [
+        "total cumulative return",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014"
+      ],
+      [
+        "edwards lifesciences",
+        "$ 186.16",
+        "$ 162.81",
+        "$ 207.65",
+        "$ 151.43",
+        "$ 293.33"
+      ],
+      [
+        "s&p 500",
+        "115.06",
+        "117.49",
+        "136.30",
+        "180.44",
+        "205.14"
+      ],
+      [
+        "s&p 500 healthcare equipment index",
+        "96.84",
+        "102.07",
+        "120.66",
+        "153.85",
+        "194.33"
+      ]
+    ],
+    "pre_text": [
+      "12feb201521095992 performance graph the following graph compares the performance of our common stock with that of the s&p 500 index and the s&p 500 healthcare equipment index .",
+      "the cumulative total return listed below assumes an initial investment of $ 100 on december 31 , 2009 and reinvestment of dividends .",
+      "comparison of 5 year cumulative total return rs $ 200 2009 2010 2011 201420132012 edwards lifesciences corporation s&p 500 s&p 500 healthcare equipment december 31 ."
+    ],
+    "post_text": [
+      "."
+    ]
+  },
+  {
+    "id": "ETR/2017/page_352.pdf-1",
+    "source_file": "train.json",
+    "source_file_sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+    "question": "what was the percent of the entergy louisiana letters of credit against authorized to be issued against the borrowing capacity of the facility",
+    "answer": "4.3%",
+    "program": "divide(15, 350)",
+    "table": [
+      [
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      [
+        "( in thousands )",
+        "( in thousands )",
+        "( in thousands )",
+        "( in thousands )"
+      ],
+      [
+        "$ 11173",
+        "$ 22503",
+        "$ 6154",
+        "$ 2815"
+      ]
+    ],
+    "pre_text": [
+      "is expected to begin by late-2018 , after the necessary information technology infrastructure is in place .",
+      "entergy louisiana proposed to recover the cost of ami through the implementation of a customer charge , net of certain benefits , phased in over the period 2019 through 2022 .",
+      "the parties reached an uncontested stipulation permitting implementation of entergy louisiana 2019s proposed ami system , with modifications to the proposed customer charge .",
+      "in july 2017 the lpsc approved the stipulation .",
+      "entergy louisiana expects to recover the undepreciated balance of its existing meters through a regulatory asset at current depreciation rates .",
+      "sources of capital entergy louisiana 2019s sources to meet its capital requirements include : 2022 internally generated funds ; 2022 cash on hand ; 2022 debt or preferred membership interest issuances ; and 2022 bank financing under new or existing facilities .",
+      "entergy louisiana may refinance , redeem , or otherwise retire debt prior to maturity , to the extent market conditions and interest rates are favorable .",
+      "all debt and common and preferred membership interest issuances by entergy louisiana require prior regulatory approval .",
+      "preferred membership interest and debt issuances are also subject to issuance tests set forth in its bond indentures and other agreements .",
+      "entergy louisiana has sufficient capacity under these tests to meet its foreseeable capital needs .",
+      "entergy louisiana 2019s receivables from the money pool were as follows as of december 31 for each of the following years. ."
+    ],
+    "post_text": [
+      "see note 4 to the financial statements for a description of the money pool .",
+      "entergy louisiana has a credit facility in the amount of $ 350 million scheduled to expire in august 2022 .",
+      "the credit facility allows entergy louisiana to issue letters of credit against $ 15 million of the borrowing capacity of the facility .",
+      "as of december 31 , 2017 , there were no cash borrowings and a $ 9.1 million letter of credit outstanding under the credit facility .",
+      "in addition , entergy louisiana is a party to an uncommitted letter of credit facility as a means to post collateral to support its obligations to miso . a0 as of december 31 , 2017 , a $ 29.7 million letter of credit was outstanding under entergy louisiana 2019s uncommitted letter of credit a0facility .",
+      "see note 4 to the financial statements for additional discussion of the credit facilities .",
+      "the entergy louisiana nuclear fuel company variable interest entities have two separate credit facilities , one in the amount of $ 105 million and one in the amount of $ 85 million , both scheduled to expire in may 2019 .",
+      "as of december 31 , 2017 , $ 65.7 million of loans were outstanding under the credit facility for the entergy louisiana river bend nuclear fuel company variable interest entity .",
+      "as of december 31 , 2017 , $ 43.5 million in letters of credit to support a like amount of commercial paper issued and $ 36.4 million in loans were outstanding under the entergy louisiana waterford nuclear fuel company variable interest entity credit facility .",
+      "see note 4 to the financial statements for additional discussion of the nuclear fuel company variable interest entity credit facilities .",
+      "entergy louisiana , llc and subsidiaries management 2019s financial discussion and analysis ."
+    ]
+  }
+]

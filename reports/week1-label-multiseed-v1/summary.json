@@ -1,0 +1,699 @@
+{
+  "seeds": {
+    "42": {
+      "seed": 42,
+      "metrics": {
+        "control_raw": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "8924de72bda3b5aa24e5752008ce3900502e275440ad9d652883f2a58e590a35",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 0.985,
+          "numeric_answer_accuracy_on_answerable": 0.13,
+          "verified_accuracy": 0.13,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.07582938388625593,
+            0.18181818181818182
+          ],
+          "answer_coverage": 0.985,
+          "error_rate_among_answered": 0.868020304568528,
+          "abstention_precision": null,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.0,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {
+            "unknown_source": 1,
+            "ungrounded_operand": 13,
+            "invalid_json": 3,
+            "unused_steps": 1
+          },
+          "mean_evidence_id_precision": 0.8708791208791209,
+          "mean_evidence_id_recall": 0.8106227106227106
+        },
+        "control_executor": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "d70e0465b717832326ac8a84c0c36f26eb22cca0eed216fb1f81c7636fd09c87",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 1.0,
+          "numeric_answer_accuracy_on_answerable": 0.455,
+          "verified_accuracy": 0.455,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.35978835978835977,
+            0.5393258426966292
+          ],
+          "answer_coverage": 0.91,
+          "error_rate_among_answered": 0.5,
+          "abstention_precision": 0.0,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.09,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {},
+          "mean_evidence_id_precision": 0.8708791208791209,
+          "mean_evidence_id_recall": 0.8106227106227106
+        },
+        "repaired_raw": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "cd552fcdafb2e14bbee24474e37eec97190b2a15b9dfad4f20a7cd7cfccc6bc5",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 0.985,
+          "numeric_answer_accuracy_on_answerable": 0.13,
+          "verified_accuracy": 0.13,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.08040201005025126,
+            0.18141592920353983
+          ],
+          "answer_coverage": 0.985,
+          "error_rate_among_answered": 0.868020304568528,
+          "abstention_precision": null,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.0,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {
+            "unknown_source": 1,
+            "ungrounded_operand": 12,
+            "invalid_json": 3,
+            "unused_steps": 2
+          },
+          "mean_evidence_id_precision": 0.8818681318681318,
+          "mean_evidence_id_recall": 0.8155067155067155
+        },
+        "repaired_executor": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "bc2af895851a481fcf8316eca88f11f1d7cef66edbfd349058fae4eb61fcc392",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 1.0,
+          "numeric_answer_accuracy_on_answerable": 0.46,
+          "verified_accuracy": 0.46,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.3719806763285024,
+            0.5445026178010471
+          ],
+          "answer_coverage": 0.91,
+          "error_rate_among_answered": 0.4945054945054945,
+          "abstention_precision": 0.0,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.09,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {},
+          "mean_evidence_id_precision": 0.8818681318681318,
+          "mean_evidence_id_recall": 0.8155067155067155
+        }
+      },
+      "resources": {
+        "control": {
+          "elapsed_seconds": 623.4716293993406,
+          "peak_allocated_gib": 3.8276925086975098,
+          "peak_reserved_gib": 19.240234375,
+          "metrics": {
+            "train_runtime": 623.3258,
+            "train_samples_per_second": 4.649,
+            "train_steps_per_second": 0.582,
+            "total_flos": 9584870856523776.0,
+            "train_loss": 0.37842413544983244,
+            "entropy": 1.6291438178582625,
+            "num_tokens": 3617361.0,
+            "mean_token_accuracy": 0.9075346182693135,
+            "epoch": 3.0
+          }
+        },
+        "repaired": {
+          "elapsed_seconds": 621.6847107489593,
+          "peak_allocated_gib": 3.8276925086975098,
+          "peak_reserved_gib": 19.240234375,
+          "metrics": {
+            "train_runtime": 621.5364,
+            "train_samples_per_second": 4.663,
+            "train_steps_per_second": 0.584,
+            "total_flos": 9584695977246720.0,
+            "train_loss": 0.3785363452165252,
+            "entropy": 1.6395537473938682,
+            "num_tokens": 3617295.0,
+            "mean_token_accuracy": 0.9051220985976133,
+            "epoch": 3.0
+          }
+        }
+      },
+      "diagnostics": {
+        "control": {
+          "executable_wrong_result": 91,
+          "verified_correct": 26,
+          "correct_program_wrong_answer": 65,
+          "invalid_schema_or_program": 18
+        },
+        "repaired": {
+          "executable_wrong_result": 90,
+          "verified_correct": 26,
+          "correct_program_wrong_answer": 66,
+          "invalid_schema_or_program": 18
+        }
+      },
+      "paired": {
+        "raw": {
+          "delta": 0.0,
+          "ci95": [
+            -0.02702702702702703,
+            0.030120481927710843
+          ],
+          "transitions": {
+            "0->0": 171,
+            "1->1": 23,
+            "0->1": 3,
+            "1->0": 3
+          },
+          "reports": 59,
+          "bootstrap_seed": 42,
+          "bootstrap_repetitions": 1000
+        },
+        "executor": {
+          "delta": 0.005,
+          "ci95": [
+            -0.019230769230769232,
+            0.03278688524590164
+          ],
+          "transitions": {
+            "0->0": 105,
+            "1->1": 88,
+            "0->1": 4,
+            "1->0": 3
+          },
+          "reports": 59,
+          "bootstrap_seed": 42,
+          "bootstrap_repetitions": 1000
+        }
+      },
+      "raw_outputs_changed": 116
+    },
+    "17": {
+      "seed": 17,
+      "metrics": {
+        "control_raw": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "58164d7d983b64f0fcd1bf32e8d17965f91bb6098740ff63f9d39b409bf7aefc",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 0.995,
+          "numeric_answer_accuracy_on_answerable": 0.135,
+          "verified_accuracy": 0.135,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.08839779005524862,
+            0.18333333333333332
+          ],
+          "answer_coverage": 0.995,
+          "error_rate_among_answered": 0.864321608040201,
+          "abstention_precision": null,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.0,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {
+            "unknown_source": 1,
+            "ungrounded_operand": 12,
+            "invalid_json": 1,
+            "unused_steps": 1
+          },
+          "mean_evidence_id_precision": 0.8675675675675676,
+          "mean_evidence_id_recall": 0.8054354354354355
+        },
+        "control_executor": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "c8f04cc5dd09b5e4902f1a34a575677bdbe5afc8953f26c80d551fde5d9e35a8",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 1.0,
+          "numeric_answer_accuracy_on_answerable": 0.455,
+          "verified_accuracy": 0.455,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.36363636363636365,
+            0.5408163265306123
+          ],
+          "answer_coverage": 0.925,
+          "error_rate_among_answered": 0.5081081081081081,
+          "abstention_precision": 0.0,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.075,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {},
+          "mean_evidence_id_precision": 0.8675675675675676,
+          "mean_evidence_id_recall": 0.8054354354354355
+        },
+        "repaired_raw": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "9b35345e092c8bfedd4bfee63f7d2dd58b091311638ae18661dcc5485d6d4f5a",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 0.985,
+          "numeric_answer_accuracy_on_answerable": 0.135,
+          "verified_accuracy": 0.135,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.08571428571428572,
+            0.18803418803418803
+          ],
+          "answer_coverage": 0.985,
+          "error_rate_among_answered": 0.8629441624365483,
+          "abstention_precision": null,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.0,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {
+            "unknown_source": 1,
+            "ungrounded_operand": 9,
+            "invalid_json": 2,
+            "unused_steps": 1,
+            "invalid_step_count": 1
+          },
+          "mean_evidence_id_precision": 0.871863799283154,
+          "mean_evidence_id_recall": 0.7984169653524492
+        },
+        "repaired_executor": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "afd0ab16d485328106140094ac8d8cb58da8bd91d057a4cb7cd64c620dc2fce5",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 1.0,
+          "numeric_answer_accuracy_on_answerable": 0.455,
+          "verified_accuracy": 0.455,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.3563218390804598,
+            0.541871921182266
+          ],
+          "answer_coverage": 0.93,
+          "error_rate_among_answered": 0.510752688172043,
+          "abstention_precision": 0.0,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.07,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {},
+          "mean_evidence_id_precision": 0.871863799283154,
+          "mean_evidence_id_recall": 0.7984169653524492
+        }
+      },
+      "resources": {
+        "control": {
+          "elapsed_seconds": 616.7517502601258,
+          "peak_allocated_gib": 3.8276968002319336,
+          "peak_reserved_gib": 22.658203125,
+          "metrics": {
+            "train_runtime": 616.6018,
+            "train_samples_per_second": 4.7,
+            "train_steps_per_second": 0.589,
+            "total_flos": 9584870856523776.0,
+            "train_loss": 0.3774628839545342,
+            "entropy": 1.6121621565385298,
+            "num_tokens": 3617361.0,
+            "mean_token_accuracy": 0.8724978213960474,
+            "epoch": 3.0
+          }
+        },
+        "repaired": {
+          "elapsed_seconds": 629.1434858199209,
+          "peak_allocated_gib": 3.8276968002319336,
+          "peak_reserved_gib": 22.6171875,
+          "metrics": {
+            "train_runtime": 628.9974,
+            "train_samples_per_second": 4.607,
+            "train_steps_per_second": 0.577,
+            "total_flos": 9584695977246720.0,
+            "train_loss": 0.3776487427309525,
+            "entropy": 1.6043199409138074,
+            "num_tokens": 3617295.0,
+            "mean_token_accuracy": 0.8695595128969713,
+            "epoch": 3.0
+          }
+        }
+      },
+      "diagnostics": {
+        "control": {
+          "executable_wrong_result": 94,
+          "verified_correct": 27,
+          "correct_program_wrong_answer": 64,
+          "invalid_schema_or_program": 15
+        },
+        "repaired": {
+          "executable_wrong_result": 95,
+          "verified_correct": 27,
+          "correct_program_wrong_answer": 64,
+          "invalid_schema_or_program": 14
+        }
+      },
+      "paired": {
+        "raw": {
+          "delta": 0.0,
+          "ci95": [
+            -0.03076923076923077,
+            0.032407407407407406
+          ],
+          "transitions": {
+            "0->0": 168,
+            "1->1": 22,
+            "1->0": 5,
+            "0->1": 5
+          },
+          "reports": 59,
+          "bootstrap_seed": 42,
+          "bootstrap_repetitions": 1000
+        },
+        "executor": {
+          "delta": 0.0,
+          "ci95": [
+            -0.030864197530864196,
+            0.03125
+          ],
+          "transitions": {
+            "0->0": 104,
+            "1->1": 86,
+            "1->0": 5,
+            "0->1": 5
+          },
+          "reports": 59,
+          "bootstrap_seed": 42,
+          "bootstrap_repetitions": 1000
+        }
+      },
+      "raw_outputs_changed": 114
+    },
+    "123": {
+      "seed": 123,
+      "metrics": {
+        "control_raw": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "ec65f8873975bdd5c76257e61d46564ea2fa37cd65873a7a471ac0ffd72df8a8",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 0.985,
+          "numeric_answer_accuracy_on_answerable": 0.11,
+          "verified_accuracy": 0.11,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.07329842931937172,
+            0.15137614678899083
+          ],
+          "answer_coverage": 0.985,
+          "error_rate_among_answered": 0.8883248730964467,
+          "abstention_precision": null,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.0,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {
+            "unused_steps": 2,
+            "unknown_source": 1,
+            "invalid_json": 3,
+            "ungrounded_operand": 10
+          },
+          "mean_evidence_id_precision": 0.8568840579710144,
+          "mean_evidence_id_recall": 0.7969504830917874
+        },
+        "control_executor": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "ce9912761747c47a3fec1c56cec88520dd340a930424e57f6ea930969e25b59e",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 1.0,
+          "numeric_answer_accuracy_on_answerable": 0.43,
+          "verified_accuracy": 0.43,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.3378995433789954,
+            0.5111111111111111
+          ],
+          "answer_coverage": 0.92,
+          "error_rate_among_answered": 0.532608695652174,
+          "abstention_precision": 0.0,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.08,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {},
+          "mean_evidence_id_precision": 0.8568840579710144,
+          "mean_evidence_id_recall": 0.7969504830917874
+        },
+        "repaired_raw": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "8b14e2daed0e727a65d86805751e18a305f810d0abfcef08aae82c49a31f83a3",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 0.995,
+          "numeric_answer_accuracy_on_answerable": 0.12,
+          "verified_accuracy": 0.12,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.07246376811594203,
+            0.17258883248730963
+          ],
+          "answer_coverage": 0.995,
+          "error_rate_among_answered": 0.8793969849246231,
+          "abstention_precision": null,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.0,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {
+            "unknown_source": 1,
+            "ungrounded_operand": 12,
+            "unused_steps": 1,
+            "invalid_step_count": 1
+          },
+          "mean_evidence_id_precision": 0.8567567567567568,
+          "mean_evidence_id_recall": 0.7914714714714715
+        },
+        "repaired_executor": {
+          "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+          "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+          "predictions_sha256": "0b1203e27ea47038f69f4973e9d1fab88d51d54ffa16e4056e6c149aa9ffd53e",
+          "n": 200,
+          "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+          "missing_predictions": 0,
+          "schema_valid_rate": 1.0,
+          "numeric_answer_accuracy_on_answerable": 0.44,
+          "verified_accuracy": 0.44,
+          "verified_accuracy_report_cluster_bootstrap_95ci": [
+            0.34838709677419355,
+            0.5181347150259067
+          ],
+          "answer_coverage": 0.925,
+          "error_rate_among_answered": 0.5243243243243243,
+          "abstention_precision": 0.0,
+          "abstention_recall": null,
+          "false_abstention_rate": 0.075,
+          "evidence_id_overlap_is_not_entailment": true,
+          "errors": {},
+          "mean_evidence_id_precision": 0.8567567567567568,
+          "mean_evidence_id_recall": 0.7914714714714715
+        }
+      },
+      "resources": {
+        "control": {
+          "elapsed_seconds": 618.2576615889557,
+          "peak_allocated_gib": 3.827698230743408,
+          "peak_reserved_gib": 11.796875,
+          "metrics": {
+            "train_runtime": 618.1074,
+            "train_samples_per_second": 4.689,
+            "train_steps_per_second": 0.587,
+            "total_flos": 9584870856523776.0,
+            "train_loss": 0.37960850601353924,
+            "entropy": 1.746210900220004,
+            "num_tokens": 3617361.0,
+            "mean_token_accuracy": 0.8965440148657019,
+            "epoch": 3.0
+          }
+        },
+        "repaired": {
+          "elapsed_seconds": 626.232262507081,
+          "peak_allocated_gib": 3.827698230743408,
+          "peak_reserved_gib": 11.796875,
+          "metrics": {
+            "train_runtime": 626.0833,
+            "train_samples_per_second": 4.629,
+            "train_steps_per_second": 0.58,
+            "total_flos": 9584695977246720.0,
+            "train_loss": 0.37893839595074824,
+            "entropy": 1.7580077864907004,
+            "num_tokens": 3617295.0,
+            "mean_token_accuracy": 0.8955997011878274,
+            "epoch": 3.0
+          }
+        }
+      },
+      "diagnostics": {
+        "control": {
+          "invalid_schema_or_program": 16,
+          "verified_correct": 22,
+          "correct_program_wrong_answer": 64,
+          "executable_wrong_result": 98
+        },
+        "repaired": {
+          "executable_wrong_result": 97,
+          "verified_correct": 24,
+          "correct_program_wrong_answer": 64,
+          "invalid_schema_or_program": 15
+        }
+      },
+      "paired": {
+        "raw": {
+          "delta": 0.01,
+          "ci95": [
+            -0.008583690987124463,
+            0.031914893617021274
+          ],
+          "transitions": {
+            "0->0": 175,
+            "1->1": 21,
+            "1->0": 1,
+            "0->1": 3
+          },
+          "reports": 59,
+          "bootstrap_seed": 42,
+          "bootstrap_repetitions": 1000
+        },
+        "executor": {
+          "delta": 0.01,
+          "ci95": [
+            -0.013333333333333334,
+            0.03680981595092025
+          ],
+          "transitions": {
+            "0->0": 110,
+            "1->1": 84,
+            "0->1": 4,
+            "1->0": 2
+          },
+          "reports": 59,
+          "bootstrap_seed": 42,
+          "bootstrap_repetitions": 1000
+        }
+      },
+      "raw_outputs_changed": 114
+    }
+  },
+  "aggregate": {
+    "new_replications_only": {
+      "seeds": [
+        17,
+        123
+      ],
+      "n_unique_questions": 200,
+      "metrics": {
+        "control_raw": {
+          "n_seeds": 2,
+          "mean": 0.1225,
+          "sample_sd": 0.017677669529663695,
+          "min": 0.11,
+          "max": 0.135
+        },
+        "control_executor": {
+          "n_seeds": 2,
+          "mean": 0.4425,
+          "sample_sd": 0.017677669529663705,
+          "min": 0.43,
+          "max": 0.455
+        },
+        "repaired_raw": {
+          "n_seeds": 2,
+          "mean": 0.1275,
+          "sample_sd": 0.010606601717798222,
+          "min": 0.12,
+          "max": 0.135
+        },
+        "repaired_executor": {
+          "n_seeds": 2,
+          "mean": 0.4475,
+          "sample_sd": 0.010606601717798222,
+          "min": 0.44,
+          "max": 0.455
+        }
+      },
+      "paired_deltas": {
+        "raw": {
+          "n_seeds": 2,
+          "mean": 0.005,
+          "sample_sd": 0.007071067811865475,
+          "min": 0.0,
+          "max": 0.01
+        },
+        "executor": {
+          "n_seeds": 2,
+          "mean": 0.005,
+          "sample_sd": 0.007071067811865475,
+          "min": 0.0,
+          "max": 0.01
+        }
+      }
+    },
+    "all_three_descriptive": {
+      "seeds": [
+        42,
+        17,
+        123
+      ],
+      "n_unique_questions": 200,
+      "metrics": {
+        "control_raw": {
+          "n_seeds": 3,
+          "mean": 0.125,
+          "sample_sd": 0.013228756555322957,
+          "min": 0.11,
+          "max": 0.135
+        },
+        "control_executor": {
+          "n_seeds": 3,
+          "mean": 0.44666666666666666,
+          "sample_sd": 0.014433756729740658,
+          "min": 0.43,
+          "max": 0.455
+        },
+        "repaired_raw": {
+          "n_seeds": 3,
+          "mean": 0.12833333333333333,
+          "sample_sd": 0.00763762615825974,
+          "min": 0.12,
+          "max": 0.135
+        },
+        "repaired_executor": {
+          "n_seeds": 3,
+          "mean": 0.45166666666666666,
+          "sample_sd": 0.010408329997330672,
+          "min": 0.44,
+          "max": 0.46
+        }
+      },
+      "paired_deltas": {
+        "raw": {
+          "n_seeds": 3,
+          "mean": 0.0033333333333333335,
+          "sample_sd": 0.005773502691896258,
+          "min": 0.0,
+          "max": 0.01
+        },
+        "executor": {
+          "n_seeds": 3,
+          "mean": 0.005,
+          "sample_sd": 0.005,
+          "min": 0.0,
+          "max": 0.01
+        }
+      }
+    }
+  },
+  "test_evaluated": false,
+  "seed42_previously_observed": true,
+  "no_best_seed_selection": true
+}

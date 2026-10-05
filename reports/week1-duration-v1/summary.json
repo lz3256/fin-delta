@@ -1,0 +1,273 @@
+{
+  "runs": {
+    "1epoch-dev": {
+      "metrics": {
+        "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+        "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+        "predictions_sha256": "b042c89abd5b333a323cd85c0c4fa89129ab866a5d32a34013f38bac442cb59c",
+        "n": 200,
+        "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+        "missing_predictions": 0,
+        "schema_valid_rate": 0.965,
+        "numeric_answer_accuracy_on_answerable": 0.06,
+        "verified_accuracy": 0.055,
+        "verified_accuracy_report_cluster_bootstrap_95ci": [
+          0.020618556701030927,
+          0.1005586592178771
+        ],
+        "answer_coverage": 0.965,
+        "error_rate_among_answered": 0.9430051813471503,
+        "abstention_precision": null,
+        "abstention_recall": null,
+        "false_abstention_rate": 0.0,
+        "evidence_id_overlap_is_not_entailment": true,
+        "errors": {
+          "unknown_source": 2,
+          "ungrounded_operand": 20,
+          "invalid_json": 7
+        },
+        "mean_evidence_id_precision": 0.847953216374269,
+        "mean_evidence_id_recall": 0.7622157244964264
+      },
+      "categories": {
+        "answer_program_disagreement": 109,
+        "consistent_but_wrong": 51,
+        "verified_correct": 11,
+        "invalid_schema_or_program": 29
+      },
+      "step_groups": {
+        "one_step": {
+          "n": 114,
+          "verified_correct": 10,
+          "execution_correct": 30
+        },
+        "multi_step": {
+          "n": 86,
+          "verified_correct": 1,
+          "execution_correct": 2
+        }
+      },
+      "program_correct": 32,
+      "execution_valid": 171,
+      "inference_seconds": 131.3150376919657
+    },
+    "3epochs-dev": {
+      "metrics": {
+        "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+        "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+        "predictions_sha256": "16a0b129376f276188c36d9ba6f33a4226354c3bedd83b8bd4d705afb934aa21",
+        "n": 200,
+        "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+        "missing_predictions": 0,
+        "schema_valid_rate": 0.98,
+        "numeric_answer_accuracy_on_answerable": 0.135,
+        "verified_accuracy": 0.135,
+        "verified_accuracy_report_cluster_bootstrap_95ci": [
+          0.07643312101910828,
+          0.205
+        ],
+        "answer_coverage": 0.98,
+        "error_rate_among_answered": 0.8622448979591837,
+        "abstention_precision": null,
+        "abstention_recall": null,
+        "false_abstention_rate": 0.0,
+        "evidence_id_overlap_is_not_entailment": true,
+        "errors": {
+          "unknown_source": 1,
+          "invalid_json": 4,
+          "ungrounded_operand": 15,
+          "unused_steps": 1
+        },
+        "mean_evidence_id_precision": 0.8854748603351955,
+        "mean_evidence_id_recall": 0.8138112973308503
+      },
+      "categories": {
+        "consistent_but_wrong": 19,
+        "verified_correct": 27,
+        "answer_program_disagreement": 133,
+        "invalid_schema_or_program": 21
+      },
+      "step_groups": {
+        "one_step": {
+          "n": 114,
+          "verified_correct": 13,
+          "execution_correct": 50
+        },
+        "multi_step": {
+          "n": 86,
+          "verified_correct": 14,
+          "execution_correct": 39
+        }
+      },
+      "program_correct": 89,
+      "execution_valid": 179,
+      "inference_seconds": 127.25522239413112
+    },
+    "1epoch-train64": {
+      "metrics": {
+        "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+        "dataset_sha256": "8ac92a41ee048f5e7f07be02216661592335bbf3f83d3d1259768fc568efba35",
+        "predictions_sha256": "8ad8f1df63df5902526806ad1d38d55b7c6c37abef6feace9224b359ed66fc4d",
+        "n": 64,
+        "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+        "missing_predictions": 0,
+        "schema_valid_rate": 0.984375,
+        "numeric_answer_accuracy_on_answerable": 0.09375,
+        "verified_accuracy": 0.09375,
+        "verified_accuracy_report_cluster_bootstrap_95ci": [
+          0.030303030303030304,
+          0.16666666666666666
+        ],
+        "answer_coverage": 0.984375,
+        "error_rate_among_answered": 0.9047619047619048,
+        "abstention_precision": null,
+        "abstention_recall": null,
+        "false_abstention_rate": 0.0,
+        "evidence_id_overlap_is_not_entailment": true,
+        "errors": {
+          "invalid_json": 1,
+          "invalid_arguments": 1,
+          "ungrounded_operand": 4
+        },
+        "mean_evidence_id_precision": 0.8706896551724138,
+        "mean_evidence_id_recall": 0.7635467980295566
+      },
+      "categories": {
+        "answer_program_disagreement": 30,
+        "consistent_but_wrong": 22,
+        "invalid_schema_or_program": 6,
+        "verified_correct": 6
+      },
+      "step_groups": {
+        "one_step": {
+          "n": 30,
+          "verified_correct": 5,
+          "execution_correct": 13
+        },
+        "multi_step": {
+          "n": 34,
+          "verified_correct": 1,
+          "execution_correct": 1
+        }
+      },
+      "program_correct": 14,
+      "execution_valid": 58,
+      "inference_seconds": 43.5818225229159
+    },
+    "3epochs-train64": {
+      "metrics": {
+        "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+        "dataset_sha256": "8ac92a41ee048f5e7f07be02216661592335bbf3f83d3d1259768fc568efba35",
+        "predictions_sha256": "79d58aaf97b16ecfd606dcef08618c6079581bd381ca10a0ad54fccc3288f644",
+        "n": 64,
+        "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+        "missing_predictions": 0,
+        "schema_valid_rate": 0.984375,
+        "numeric_answer_accuracy_on_answerable": 0.25,
+        "verified_accuracy": 0.25,
+        "verified_accuracy_report_cluster_bootstrap_95ci": [
+          0.140625,
+          0.36231884057971014
+        ],
+        "answer_coverage": 0.984375,
+        "error_rate_among_answered": 0.746031746031746,
+        "abstention_precision": null,
+        "abstention_recall": null,
+        "false_abstention_rate": 0.0,
+        "evidence_id_overlap_is_not_entailment": true,
+        "errors": {
+          "invalid_json": 1
+        },
+        "mean_evidence_id_precision": 0.9285714285714286,
+        "mean_evidence_id_recall": 0.8444822373393801
+      },
+      "categories": {
+        "answer_program_disagreement": 42,
+        "verified_correct": 16,
+        "consistent_but_wrong": 5,
+        "invalid_schema_or_program": 1
+      },
+      "step_groups": {
+        "one_step": {
+          "n": 30,
+          "verified_correct": 8,
+          "execution_correct": 18
+        },
+        "multi_step": {
+          "n": 34,
+          "verified_correct": 8,
+          "execution_correct": 24
+        }
+      },
+      "program_correct": 42,
+      "execution_valid": 63,
+      "inference_seconds": 28.379710969049484
+    }
+  },
+  "config_differences": {
+    "epochs": [
+      1,
+      3
+    ]
+  },
+  "dev_transitions": {
+    "both_wrong": 167,
+    "improved": 22,
+    "both_correct": 5,
+    "regressed": 6
+  },
+  "training_seconds": 645.6864520269446,
+  "peak_allocated_gib": 3.8274521827697754,
+  "peak_reserved_gib": 20.400390625,
+  "test_evaluated": false,
+  "executor_metrics": {
+    "1epoch": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "80b0f68071bf7116749fa80a1457fe75de1d82a684f012ebac555985c02d291c",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 1.0,
+      "numeric_answer_accuracy_on_answerable": 0.16,
+      "verified_accuracy": 0.16,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.09941520467836257,
+        0.21428571428571427
+      ],
+      "answer_coverage": 0.855,
+      "error_rate_among_answered": 0.8128654970760234,
+      "abstention_precision": 0.0,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.145,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {},
+      "mean_evidence_id_precision": 0.847953216374269,
+      "mean_evidence_id_recall": 0.7622157244964264
+    },
+    "3epochs": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "0950a911408ac9d8f51e00ec776987f507de64515a2d794097d1522ebd87ae27",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 1.0,
+      "numeric_answer_accuracy_on_answerable": 0.445,
+      "verified_accuracy": 0.445,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.357487922705314,
+        0.5274725274725275
+      ],
+      "answer_coverage": 0.895,
+      "error_rate_among_answered": 0.5027932960893855,
+      "abstention_precision": 0.0,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.105,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {},
+      "mean_evidence_id_precision": 0.8854748603351955,
+      "mean_evidence_id_recall": 0.8138112973308503
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "count": 20,
+  "human_reviewed": 0,
+  "training_export_requires_review": true,
+  "rule": "Valid but numerically incorrect predicted program; rejected answer normalized by execution; skip year-flagged inputs pending label review.",
+  "data_sha256": "8ac92a41ee048f5e7f07be02216661592335bbf3f83d3d1259768fc568efba35",
+  "predictions_sha256": "79d58aaf97b16ecfd606dcef08618c6079581bd381ca10a0ad54fccc3288f644",
+  "prediction_manifest_sha256": "b456fe4d28fe8f44e12477468bde085d6ae5a063a30f83157358a0006a7439be",
+  "year_flags_sha256": "5973fb25c891cbc3de9e537fd7932be09f573eaffc068051b7b7e2a89f28a8a5",
+  "skipped_pending_year_review": [
+    "LKQ/2012/page_25.pdf-3"
+  ],
+  "generation": "Existing 3-epoch greedy train diagnostic; no new sampling or training",
+  "caveat": "Verifier-labeled candidates, not human preferences. Correct arithmetic does not establish semantic correctness.",
+  "assistant_reviewed": 20,
+  "approved": 10,
+  "rejected": 10,
+  "pending": 0,
+  "reviewer_type": "ai_assistant",
+  "review_id": "assistant-review-v1",
+  "review_completed_at": "2026-09-24T20:37:14.919706+00:00",
+  "review_csv_sha256": "ccdfce5ea48bdf4e27cccbc97d4044fec7f66f5b00bcff3c3afa99f23a405482",
+  "decisions_sha256": "d320a89e21609c8e00887d595246a47df82e61849adba89c588d0d19e2e6ce87",
+  "approved_sha256": "951a44b5d168ab2128cf44c81ffefcf763dce783d1b373cefd78a5d0171a3942",
+  "original_candidates_sha256": "59da21bc8b64c370d79ae9cb387ab61c503e43562d1a7ce0856c9388305be3eb",
+  "source_crosscheck_sha256": "36c4a00bc76d3c813288780f4663a32c080604ec32db7d8c9344200e0663cd7e",
+  "review_note": "User delegated review to the assistant. Not independent human preference labels; no DPO training performed.",
+  "cohort_files_unchanged": {
+    "train": "283aefa7c681dcd0ffcdf05dd829fde864b688615c2adc8f9da8cbf417791590",
+    "dev": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+    "test": "1d37199e8390e1f2976bd485d01ff8a30b92c32823e1ac7811364743ac391fa1"
+  }
+}

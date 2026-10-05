@@ -1,0 +1,22 @@
+{
+  "core_tests_passed": 22,
+  "batched_inference_tiny_cpu_check": {
+    "passed": true,
+    "n": 3,
+    "batch_sizes": [
+      1,
+      2
+    ],
+    "checks": [
+      "unequal-length prompts",
+      "same greedy output and token count",
+      "partial final batch"
+    ],
+    "scope": "Random tiny CPU fixture; no guarantee of bitwise equality across GPU kernels or model quality"
+  },
+  "full_gpu_sft_completed": true,
+  "dev_examples": 200,
+  "test_quality_evaluation_performed": false,
+  "real_dpo_completed": false,
+  "executor_ablation_label_independence_test_passed": true
+}

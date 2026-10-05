@@ -1,0 +1,23 @@
+{
+  "test_kind": "random tiny CPU integration test, NOT model quality evidence",
+  "sft_steps": {
+    "train_runtime": 0.0591,
+    "train_samples_per_second": 33.83,
+    "train_steps_per_second": 33.83,
+    "total_flos": 44686080.0,
+    "train_loss": 5.13428258895874,
+    "epoch": 0.5
+  },
+  "dpo_steps": {
+    "train_runtime": 0.0137,
+    "train_samples_per_second": 146.37,
+    "train_steps_per_second": 146.37,
+    "total_flos": 0.0,
+    "train_loss": 0.6931471824645996,
+    "epoch": 0.5
+  },
+  "sft_parameters_changed": 1,
+  "dpo_parameters_changed": 2,
+  "dpo_reference_parameters_changed": 0,
+  "prediction_evaluation_completed": true
+}

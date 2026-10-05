@@ -1,0 +1,91 @@
+{
+  "purpose": "Single-seed exploratory DPO using AI-reviewed preferences",
+  "n_preferences": 32,
+  "training_data_sha256": "5b6ab243ae5379f316288c9de6859daf410e819e2520e7fa7ad381898e9adc68",
+  "human_reviewed": 0,
+  "reviewer_type": "ai_assistant",
+  "review_manifest": {
+    "approved_total": 32,
+    "old_approved": 10,
+    "new_approved": 22,
+    "old_reviewed": 20,
+    "new_reviewed": 60,
+    "new_rejected": 38,
+    "new_pending": 41,
+    "human_reviewed": 0,
+    "reviewer_type": "ai_assistant",
+    "selection": "fixed first 60 of new candidates, no target quota or dev-based selection",
+    "data_sha256": "5b6ab243ae5379f316288c9de6859daf410e819e2520e7fa7ad381898e9adc68",
+    "review_inputs": {
+      "data/preferences/sft3-expanded-v1/candidates.jsonl": "24a91a9a614a292293004cc3f22d2e461f5d30ed349d90e9d8920e085770f52f",
+      "data/preferences/sft3-expanded-v1/review.csv": "d82d04d0fa55c1dce1f56d1fb7c15a81ef19a1e6c8c5fcd0aa2f9dfb2b15e223",
+      "data/preferences/sft3-expanded-v1/assistant-expanded-v1/decisions.jsonl": "2943b42aaae5bcbbd067db39b5043238414458eec03f82c252b0782f3dc8da3e",
+      "data/preferences/sft3-expanded-v1/approved.jsonl": "728b4d3cd48521b911731ab84a04da83682165ed7040344628d73d41a4d65a65",
+      "data/preferences/sft3-program-v1/approved.jsonl": "951a44b5d168ab2128cf44c81ffefcf763dce783d1b373cefd78a5d0171a3942",
+      "reports/week1-dpo-v1/sampling-protocol.json": "6f37251ca5cef029b6a2ce77fb2cfa775f40e6627a2c12b34f9d8e1b849eaa96"
+    },
+    "semantic_limit": "Conservative assistant judgments; no independent human audit; no guarantee of noise-free labels."
+  },
+  "sampling_protocol_sha256": "6f37251ca5cef029b6a2ce77fb2cfa775f40e6627a2c12b34f9d8e1b849eaa96",
+  "initialization": "Both policy and frozen reference are the 3-epoch SFT adapter; formal run restarts after smoke",
+  "sft_manifest_sha256": "e26c5b18c6f36d4bf65f7e007b990a3b49332a36302ec2c566eaea41b3f1f77d",
+  "training_config": {
+    "model": "Qwen/Qwen3-0.6B",
+    "load_in_4bit": false,
+    "max_length": 2048,
+    "max_prompt_length": 1408,
+    "max_new_tokens": 640,
+    "gradient_accumulation_steps": 4,
+    "gradient_checkpointing": true,
+    "learning_rate": 5e-06,
+    "beta": 0.1,
+    "epochs": 1,
+    "seed": 42,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+  "dev_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+  "inference_config": {
+    "model": "Qwen/Qwen3-0.6B",
+    "load_in_4bit": false,
+    "max_length": 2048,
+    "max_prompt_length": 1408,
+    "max_new_tokens": 640,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": true,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "learning_rate": 0.0001,
+    "epochs": 1,
+    "seed": 42,
+    "inference_batch_size": 8
+  },
+  "primary": "verified dev accuracy using the same deterministic executor as SFT baseline",
+  "secondary": "raw dev verified accuracy",
+  "test_evaluated": false,
+  "code_sha256": {
+    "findelta/__init__.py": "475c5001b017c46ddc7284c672b05a007a6b809685f8c62ea1b1319359b94125",
+    "findelta/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "findelta/cli.py": "31dd76320beddb3487974f37dbab3496485e47785ce2d6a55aa9d2482ca455b0",
+    "findelta/common.py": "b3a3cebabc1586194ccec51c03665fa1b3216d621ed09643df1998b4f85b74c8",
+    "findelta/data.py": "76f5cb87dfb902e5ef74c5b9e38978449c8d6df7da0154a87680828a25adc821",
+    "findelta/evaluate.py": "4c0e30228cf790741fb47273811cab8cb75d84ec9ce346fd0d5aeeebcf6e4dcb",
+    "findelta/modeling.py": "52f8c19465416eb5052fb02c9ab3e795b7e43d9b2c5da331de4e07b789502636",
+    "findelta/predict.py": "32f981731cdbbc8143895096b21f35ee793904c2a431f0609269e746bdd67d89",
+    "findelta/preferences.py": "f42874c5d4c0176848f3f3007d0a047ab186ee7e27df46c13b1f45cef82d9dae",
+    "findelta/probe.py": "ce6b06486f59f922aa702d0c64ac1c79232ecd0a5c2454b8f0992047a4627a3a",
+    "findelta/report.py": "5004b2b1bb6c93cdf8a918424728e57eca09d21c4474bfee37bf7db82b8e92e8",
+    "findelta/stress.py": "3666694cf395c234069f33356b4ce5067093a44c094eb5323c8b7c87612cea31",
+    "findelta/train.py": "392626de99f957e77e5ce3c64e0b7140c8ae1dac40ba949d5c6922d48a70bd89",
+    "findelta/verify.py": "8b83482b4ffbb453642268ac5b3c20f37521d535480133c5751ad828eeff664e"
+  }
+}

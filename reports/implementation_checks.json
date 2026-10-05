@@ -1,0 +1,35 @@
+{
+  "unit_tests_passed": 21,
+  "real_data_cohort": {
+    "train": 1000,
+    "dev": 200,
+    "test": 200
+  },
+  "gold_targets_pass_verifier": true,
+  "company_and_report_split_overlap": 0,
+  "qwen_tokenizer_sft_rows_checked": 1000,
+  "qwen_tokenizer_dpo_candidate_rows_checked": 100,
+  "gpu_training_completed": false,
+  "quality_improvement_measured": false,
+  "processed_counts": {
+    "train": 4431,
+    "dev": 962,
+    "test": 1613
+  },
+  "quarantine_count": 1275,
+  "quarantine_reasons": {
+    "human_program_answer_disagreement": 571,
+    "unsupported_operation:greater": 151,
+    "unsupported_operation:table_average": 127,
+    "operand_not_found": 175,
+    "no_evidence": 8,
+    "unsupported_operation:table_max": 64,
+    "unsupported_operation:table_min": 35,
+    "unsupported_operation:table_sum": 46,
+    "unused_steps": 25,
+    "duplicate_context_question": 64,
+    "unsupported_operation:exp": 9
+  },
+  "comparison_and_abstention_fixture_checks": "passed (oracle fixtures, not model predictions)",
+  "t4_native_precision_regression": "passed with simulated T4 CUDA capabilities; actual GPU training pending"
+}

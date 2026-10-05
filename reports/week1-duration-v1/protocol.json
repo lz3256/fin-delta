@@ -1,0 +1,48 @@
+{
+  "purpose": "Exploratory duration ablation: 1 vs 3 SFT epochs from the same base",
+  "primary_endpoint": "raw model verified accuracy on frozen 200-question dev",
+  "secondary_endpoint": "execution-correct rate and existing deterministic executor dev ablation",
+  "diagnostic": "64 training rows sampled before observing their predictions; in-sample, not generalization",
+  "train_probe_selection_seed": 20260924,
+  "train_probe_sha256": "8ac92a41ee048f5e7f07be02216661592335bbf3f83d3d1259768fc568efba35",
+  "base_run": "/workspace/findelta-runs/week1-v3",
+  "old_training_manifest_sha256": "4449f60cf427f40d72a0c1fb69fc7699a458c877c7cc8b5b5b5b2f6f87013d01",
+  "changed_training_config": {
+    "epochs": [
+      1,
+      3
+    ]
+  },
+  "schedule_caveat": "Same warmup ratio and default linear schedule are recomputed for 375 rather than 125 steps. This is a duration-recipe comparison, not an identical first-epoch prefix.",
+  "initialization": "base model, never continue the 1-epoch adapter",
+  "inference_config_note": "Identical config reused for inference; its epochs field is unused during inference.",
+  "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+  "data_sha256": {
+    "train": "283aefa7c681dcd0ffcdf05dd829fde864b688615c2adc8f9da8cbf417791590",
+    "dev": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199"
+  },
+  "sft_data_sha256": "f6fe0a1f1b7ea8bc48f839f7ea9089ee29643e4779c182a610e1190ec4ce9503",
+  "model_lock": {
+    "model": "Qwen/Qwen3-0.6B",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  "test_evaluation": false,
+  "training_seed": 42,
+  "code_sha256": {
+    "findelta/__init__.py": "475c5001b017c46ddc7284c672b05a007a6b809685f8c62ea1b1319359b94125",
+    "findelta/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "findelta/cli.py": "31dd76320beddb3487974f37dbab3496485e47785ce2d6a55aa9d2482ca455b0",
+    "findelta/common.py": "b3a3cebabc1586194ccec51c03665fa1b3216d621ed09643df1998b4f85b74c8",
+    "findelta/data.py": "76f5cb87dfb902e5ef74c5b9e38978449c8d6df7da0154a87680828a25adc821",
+    "findelta/evaluate.py": "4c0e30228cf790741fb47273811cab8cb75d84ec9ce346fd0d5aeeebcf6e4dcb",
+    "findelta/modeling.py": "52f8c19465416eb5052fb02c9ab3e795b7e43d9b2c5da331de4e07b789502636",
+    "findelta/predict.py": "32f981731cdbbc8143895096b21f35ee793904c2a431f0609269e746bdd67d89",
+    "findelta/preferences.py": "f42874c5d4c0176848f3f3007d0a047ab186ee7e27df46c13b1f45cef82d9dae",
+    "findelta/probe.py": "ce6b06486f59f922aa702d0c64ac1c79232ecd0a5c2454b8f0992047a4627a3a",
+    "findelta/report.py": "5004b2b1bb6c93cdf8a918424728e57eca09d21c4474bfee37bf7db82b8e92e8",
+    "findelta/stress.py": "3666694cf395c234069f33356b4ce5067093a44c094eb5323c8b7c87612cea31",
+    "findelta/train.py": "49cd694835ea9273093338fd1dc1350cc90d9eb79b95dfcb536166a82a221d94",
+    "findelta/verify.py": "8b83482b4ffbb453642268ac5b3c20f37521d535480133c5751ad828eeff664e"
+  },
+  "runner_sha256": "09d049f498edf9b736326f42a65d0295b08a946330e63ec1011a58b44d920ac8"
+}

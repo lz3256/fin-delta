@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "load_in_4bit": false,
+  "max_length": 2048,
+  "max_prompt_length": 1408,
+  "max_new_tokens": 640,
+  "gradient_accumulation_steps": 8,
+  "gradient_checkpointing": true,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "target_modules": ["q_proj", "v_proj"],
+  "learning_rate": 0.0001,
+  "epochs": 1,
+  "seed": 42
+}

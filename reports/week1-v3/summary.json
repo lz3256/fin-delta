@@ -1,0 +1,117 @@
+{
+  "n": 200,
+  "split": "dev",
+  "training_seconds": 213.05240693921223,
+  "peak_allocated_gib": 3.8274192810058594,
+  "peak_reserved_gib": 20.3984375,
+  "transitions": {
+    "both_wrong": 189,
+    "improved": 11
+  },
+  "categories": {
+    "base": {
+      "invalid_schema_or_program": 200
+    },
+    "sft": {
+      "answer_program_disagreement": 109,
+      "consistent_but_wrong": 51,
+      "verified_correct": 11,
+      "invalid_schema_or_program": 29
+    }
+  },
+  "metrics": {
+    "base": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "2161cbc6dd318af72da44d449fdbd3d8a2d88e7f2d3ac5cabb05904c7d5381cd",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 0.81,
+      "numeric_answer_accuracy_on_answerable": 0.015,
+      "verified_accuracy": 0.0,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "answer_coverage": 0.81,
+      "error_rate_among_answered": 1.0,
+      "abstention_precision": null,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.0,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {
+        "forward_reference": 111,
+        "invalid_json": 26,
+        "no_evidence": 12,
+        "ungrounded_operand": 15,
+        "invalid_step_count": 12,
+        "invalid_arguments": 18,
+        "not_numeric": 4,
+        "unbound_operand": 2
+      },
+      "mean_evidence_id_precision": null,
+      "mean_evidence_id_recall": null
+    },
+    "sft": {
+      "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+      "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+      "predictions_sha256": "b042c89abd5b333a323cd85c0c4fa89129ab866a5d32a34013f38bac442cb59c",
+      "n": 200,
+      "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+      "missing_predictions": 0,
+      "schema_valid_rate": 0.965,
+      "numeric_answer_accuracy_on_answerable": 0.06,
+      "verified_accuracy": 0.055,
+      "verified_accuracy_report_cluster_bootstrap_95ci": [
+        0.020618556701030927,
+        0.1005586592178771
+      ],
+      "answer_coverage": 0.965,
+      "error_rate_among_answered": 0.9430051813471503,
+      "abstention_precision": null,
+      "abstention_recall": null,
+      "false_abstention_rate": 0.0,
+      "evidence_id_overlap_is_not_entailment": true,
+      "errors": {
+        "unknown_source": 2,
+        "ungrounded_operand": 20,
+        "invalid_json": 7
+      },
+      "mean_evidence_id_precision": 0.847953216374269,
+      "mean_evidence_id_recall": 0.7622157244964264
+    }
+  },
+  "inference_seconds": {
+    "base": 352.35624366113916,
+    "sft": 131.3150376919657
+  },
+  "post_hoc_executor_ablation": {
+    "label": "FinDelta custom filtered-cohort metrics; NOT official FinQA leaderboard scores",
+    "dataset_sha256": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+    "predictions_sha256": "80b0f68071bf7116749fa80a1457fe75de1d82a684f012ebac555985c02d291c",
+    "n": 200,
+    "prompt_sha256": "8a196cd0774d5e2391d83816f1bb129577fb5f8c5b9230aaf2fab5a78fbfb3c5",
+    "missing_predictions": 0,
+    "schema_valid_rate": 1.0,
+    "numeric_answer_accuracy_on_answerable": 0.16,
+    "verified_accuracy": 0.16,
+    "verified_accuracy_report_cluster_bootstrap_95ci": [
+      0.09941520467836257,
+      0.21428571428571427
+    ],
+    "answer_coverage": 0.855,
+    "error_rate_among_answered": 0.8128654970760234,
+    "abstention_precision": 0.0,
+    "abstention_recall": null,
+    "false_abstention_rate": 0.145,
+    "evidence_id_overlap_is_not_entailment": true,
+    "errors": {},
+    "mean_evidence_id_precision": 0.847953216374269,
+    "mean_evidence_id_recall": 0.7622157244964264
+  },
+  "program_result_correct_counts": {
+    "base": 0,
+    "sft": 32
+  }
+}

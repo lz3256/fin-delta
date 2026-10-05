@@ -1,0 +1,15 @@
+{
+  "count": 20,
+  "human_reviewed": 0,
+  "training_export_requires_review": true,
+  "rule": "Valid but numerically incorrect predicted program; rejected answer normalized by execution; skip year-flagged inputs pending label review.",
+  "data_sha256": "8ac92a41ee048f5e7f07be02216661592335bbf3f83d3d1259768fc568efba35",
+  "predictions_sha256": "79d58aaf97b16ecfd606dcef08618c6079581bd381ca10a0ad54fccc3288f644",
+  "prediction_manifest_sha256": "b456fe4d28fe8f44e12477468bde085d6ae5a063a30f83157358a0006a7439be",
+  "year_flags_sha256": "5973fb25c891cbc3de9e537fd7932be09f573eaffc068051b7b7e2a89f28a8a5",
+  "skipped_pending_year_review": [
+    "LKQ/2012/page_25.pdf-3"
+  ],
+  "generation": "Existing 3-epoch greedy train diagnostic; no new sampling or training",
+  "caveat": "Verifier-labeled candidates, not human preferences. Correct arithmetic does not establish semantic correctness."
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests_passed": 28,
+  "same_966_ids_order_prompts": true,
+  "completion_changes": 11,
+  "independent_base_initialization": true,
+  "same_config_environment_and_dev": true,
+  "training_steps_per_arm": 363,
+  "company_and_id_disjoint_splits": true,
+  "executor_transformations_recomputed": true,
+  "all_800_per_example_scores_recomputed": true,
+  "test_evaluated": false,
+  "audit_script_sha256": "9da548ee95950741eac13761d2d85004879ff4c6b1c4d257b0a1b9eac67990e5"
+}

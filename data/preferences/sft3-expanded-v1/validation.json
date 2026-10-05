@@ -1,0 +1,16 @@
+{
+  "reviewed": 60,
+  "approved": 22,
+  "rejected": 38,
+  "pending": 41,
+  "independent_decimal_recalculation_passed": true,
+  "train_only": true,
+  "source_tables_crosschecked": 60,
+  "cohort_hashes_unchanged": {
+    "train": "283aefa7c681dcd0ffcdf05dd829fde864b688615c2adc8f9da8cbf417791590",
+    "dev": "68d81d651f57c0adc7b654b291d9d9d780fa4e8ffb23498e22a181f74a29b199",
+    "test": "1d37199e8390e1f2976bd485d01ff8a30b92c32823e1ac7811364743ac391fa1"
+  },
+  "combined_unique_approved": 32,
+  "human_reviewed": 0
+}

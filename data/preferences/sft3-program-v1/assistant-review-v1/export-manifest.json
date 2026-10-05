@@ -1,0 +1,9 @@
+{
+  "approved": 10,
+  "total_candidates": 20,
+  "review_sha256": "ccdfce5ea48bdf4e27cccbc97d4044fec7f66f5b00bcff3c3afa99f23a405482",
+  "approved_sha256": "951a44b5d168ab2128cf44c81ffefcf763dce783d1b373cefd78a5d0171a3942",
+  "reviewer_type": "ai_assistant",
+  "human_reviewed": 0,
+  "enrichment": "Each exported row explicitly records AI reviewer and review reason."
+}
