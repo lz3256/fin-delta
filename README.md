@@ -46,7 +46,7 @@ source .venv/bin/activate
 python -m pip install -e ".[train]"
 ```
 
-Model downloads and training require additional resources. See [research protocol](docs/RESEARCH_PROTOCOL.md), [prompt specification](docs/PROMPT_V3.md), and original project guide.
+Model downloads and training require additional resources. See [research protocol](docs/RESEARCH_PROTOCOL.md), [prompt specification](docs/PROMPT_V3.md), and the [original project guide](GUIDE.zh.md).
 
 ## Research reports
 
